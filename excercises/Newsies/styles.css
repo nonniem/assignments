@@ -1,0 +1,57 @@
+p{
+    display: inline-block;
+    columns: 3;
+    font-size: 22px;
+    font-family: Times new roman, fantasy;
+    
+}
+Header {
+    font-size: 45px;
+    font-family: times new roman, cursive, monospace;
+    text-align: center;
+    padding-top: 10px;
+    text-decoration:underline;
+    font-weight: 900;
+}
+.cities {
+    font-size: 24px;
+    font-style: italic;    
+}
+
+body {
+    background-color: #417718;
+}
+
+img {
+    padding-left: auto;
+    padding-right: auto;
+    width: 100%;
+    height: 100%;
+}
+
+.icbm{
+    font-style: italic;
+    font-size: 20px;
+    text-decoration: underline;
+    cursor:crosshair;
+    text-decoration-color: black;
+    color: darkorange;
+}
+
+.kim {
+    font-style: italic;
+    font-size: 20px;
+    text-decoration: underline;
+    cursor: crosshair;
+    text-decoration-color: black;
+    color: darkorange;
+}
+
+.korea {
+    font-style: italic;
+    font-size: 20px;
+    text-decoration: underline;
+    cursor: progress;
+    text-decoration-color: black;
+    color: darkorange;
+}
