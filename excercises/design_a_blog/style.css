@@ -1,0 +1,62 @@
+* {
+    background-image: url("https://media.giphy.com/media/l0K45MbD31PmrlbOM/giphy.gif");
+    font-family: "Shadows Into Light Two", cursive;
+}
+
+.headline {
+    background: white;
+    font-size: 200%;
+    text-align: center;
+}
+
+.main {
+    display: inline;
+    color: black;
+}
+
+.navbar, .main {
+    font-size: 40px;
+}
+
+.navbar {
+    color: black;
+}
+
+span {
+    position: absolute;
+    right: 0px;
+    background: white;
+    top: 100px;
+}
+
+
+
+div > div {
+    background: white;
+    display: table-row;
+    outline: dotted pink;
+}
+
+
+.News {}
+
+.Contact {}
+
+p {
+    color: black;
+    font-size: 18px;
+    width: 300px;
+    position: absolute;
+    right: 25px;
+    top: 190px;
+    background: white;
+}
+div > a {
+    color: white;
+    float: left;
+    padding: 30px;
+}
+
+.clip {
+    padding: 35px;
+}

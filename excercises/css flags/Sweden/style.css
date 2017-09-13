@@ -1,0 +1,32 @@
+.vertical {
+    width: 175px;
+    height: 100%;
+    background-color: yellow;
+/*    display: inline-block;*/
+    left: 0px;
+    right: 0px;
+    top: 0px;
+    bottom: 0px;
+    position: absolute;
+    left: 420px 
+  
+}
+
+.horizontal {
+    height: 175px;
+    width: 100%;
+    background-color: yellow;
+/*    display:;*/
+    left: 0px;
+    right: 0px;
+    top: 40%;
+    bottom: 0px;
+    position: absolute;
+   
+  
+}
+
+body {
+    background-color: royalblue;
+    
+}

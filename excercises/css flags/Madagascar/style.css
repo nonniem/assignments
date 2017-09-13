@@ -1,0 +1,28 @@
+.white {
+    height: 600px;
+    width: 30%;
+    background-color: blue;
+    display:  inline-block;
+    
+}
+
+
+
+
+.red {
+    background-color: red;
+/*    margin: 0px;*/
+    display:  inline-block;
+    width: 60%;
+    height: 300px;
+    vertical-align: top;
+
+    
+}
+
+.green {
+    background-color: green;
+    display:  inline-block;
+    width: 60%;
+    height: 300px;
+}
