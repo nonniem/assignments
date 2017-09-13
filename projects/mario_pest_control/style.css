@@ -30,6 +30,8 @@ body {
 #contact {
     position: absolute;
     bottom: 0px;
+    left: 0px;
+    
 }
 
 #email, #contact, #site {
@@ -75,7 +77,8 @@ header {
 
 #total {
     position: absolute;
-    right: 200px
+    right: 200px;
+    top: 65px;
 }
 #yeah {
     position: absolute;
@@ -92,12 +95,22 @@ header {
 
 #sum {
     position: absolute;
-    right: 150px;
-    top: 150px;
+    right: 12%;
+    top: 22%; 
 }
 
 #signature {
     position: absolute;
     bottom: 0px;
     right: 10px;
+}
+
+#iframe {
+    position: absolute;
+    bottom: 12%;
+    left:2%;
+}
+
+#footer {
+    
 }

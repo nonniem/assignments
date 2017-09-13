@@ -29,11 +29,13 @@ document.getElementById("calculate").addEventListener("click", function (){
     document.getElementById("cheep-total").innerHTML = cheepTotal
 });
 
-    function calculatee() {
-        var goomba = document.getElementById('goomba-total').value;    
-        var bobomb = document.getElementById('bobomb-total').value;
-        var cheep = document.getElementById('cheep-total').value;    
-        var myResult = ('goomba' + 'bobomb' + 'cheep')
-         document.getElementById("total").innerHTML = 'value'
-    };
+
+
+document.getElementById("button").addEventListener("click", function (){
+        var goombaTotal = document.getElementById('goomba-total').innerHTML; 
+        var bobombTotal = document.getElementById('bobomb-total').innerHTML;
+        var cheepTotal = document.getElementById('cheep-total').innerHTML;    
+        var myResult = parseInt(cheepTotal) + parseInt(bobombTotal) + parseInt(goombaTotal);
+         document.getElementById("sum").innerHTML = myResult
+    });
 

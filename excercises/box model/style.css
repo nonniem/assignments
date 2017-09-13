@@ -1,15 +1,15 @@
 * {
-    box-sizing: border-box; 
+    box-sizing: border-box;
     font-size: 0px;
     border-color: white;
-    margin: 3px;
-    padding: 30px;
+    border-style: solid;
 }
 
 .top {
     width: 100%;
-    height: 120px;
-    background-color: #F5C6D6 
+    height: 100px;
+    background-color: #F5C6D6;
+    display: inline-block
 }
 
 .box {
@@ -19,40 +19,46 @@
     display: inline-block;
 }
 
-
 .third {
-     width: 50%;
-    height: 50px;
+    width: 50%;
+    height: 100px;
     background-color: #85CFD8;
     display: inline-block;
 }
 
 .fourth {
-     width: 75%;
-    height: 30px;
+    width: 75%;
+    height: 100px;
     background-color: #8DC63F;
     display: inline-block;
 }
 
 .bottom {
-     width: 25%;
-    height: 30px;
+    width: 25%;
+    height: 100px;
     background-color: #E76E34;
     display: inline-block;
 }
 
-
-
-
-
-
-
-/*  <div class="top"> </div>
-        <div class="box1"> </div>
-        <div class="box2"> </div>
-        <div class="box3"> </div>
-        <div class="box4"> </div>
-        <div class="3rd"> </div>
-        <div class="3rd1"> </div>
-        <div class="fourth"> </div>
-        <div class="bottom"> </div> */
+@media screen and (max-width:768px) {
+    .top {
+        display: block;
+        width: 100%;
+    }
+    .box {
+        display: block;
+        width: 100%;
+    }
+    .third {
+        display: block;
+        width: 100%;
+    }
+    .fourth {
+        display: block;
+        width: 100%;
+    }
+    .bottom {
+        display: block;
+        width: 100%;
+    }
+}
