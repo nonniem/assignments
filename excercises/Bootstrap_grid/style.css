@@ -1,0 +1,44 @@
+.top {
+    height: 120px;
+    outline: 10px solid white;
+    position: relative;
+    top: 150px;
+    background-color: #F5C6D6;
+}
+
+.quarter {
+    height: 120px;
+    outline: 10px solid white;
+    position: relative;
+    top: 150px;
+    background-color: #EE2E84;
+}
+
+.small {
+    height: 120px;
+    outline: 10px solid white;
+    position: relative;
+    top: 150px; 
+    background-color: #E76E34;
+}
+
+.bottom {
+    background-color: #8DC63F;
+    height: 120px;
+    outline: 10px solid white;
+    position: relative;
+    top: 150px;
+}
+
+.third {
+    background-color: #85CFD8;
+    height: 120px;
+    outline: 10px solid white;
+    position: relative;
+    top: 150px;
+}
+
+
+
+
+

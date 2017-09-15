@@ -1,0 +1,20 @@
+h1.header {
+    text-align: center;
+    font-size: 4em;
+    font-family: 'Libre Barcode 39 Extended Text', cursive;
+}
+
+form.input {
+    text-align: center;
+}
+
+#button {
+    font-family: fantasy;
+    font-size: 20px;
+    
+}
+
+ul.list {
+ position: absolute;
+    right: 50%;
+}
