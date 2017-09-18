@@ -1,7 +1,7 @@
-var goombaPrice =parseInt(document.getElementById("goomba-price").innerHTML)
+var goombaPrice = parseInt(document.getElementById("goomba-price").innerHTML)
 
 
-document.getElementById("Calculate").addEventListener("click", function (){
+document.getElementById("Calculate").addEventListener("click", function () {
     var goombaCount = parseInt(document.getElementById("goomba-count").value);
     var goombaTotal = goombaPrice * goombaCount;
     document.getElementById("goomba-total").innerHTML = goombaTotal
@@ -9,10 +9,10 @@ document.getElementById("Calculate").addEventListener("click", function (){
 
 
 
-var bobombsPrice =parseInt(document.getElementById("bobomb-price").innerHTML)
+var bobombsPrice = parseInt(document.getElementById("bobomb-price").innerHTML)
 
 
-document.getElementById("calc").addEventListener("click", function (){
+document.getElementById("calc").addEventListener("click", function () {
     var bobombCount = parseInt(document.getElementById("bobomb-count").value);
     var bobombTotal = bobombsPrice * bobombCount;
     document.getElementById("bobomb-total").innerHTML = bobombTotal
@@ -20,10 +20,10 @@ document.getElementById("calc").addEventListener("click", function (){
 
 
 
-var cheepPrice =parseInt(document.getElementById("cheep-price").innerHTML)
+var cheepPrice = parseInt(document.getElementById("cheep-price").innerHTML)
 
 
-document.getElementById("calculate").addEventListener("click", function (){
+document.getElementById("calculate").addEventListener("click", function () {
     var cheepCount = parseInt(document.getElementById("cheep-count").value);
     var cheepTotal = cheepPrice * cheepCount;
     document.getElementById("cheep-total").innerHTML = cheepTotal
@@ -31,11 +31,10 @@ document.getElementById("calculate").addEventListener("click", function (){
 
 
 
-document.getElementById("button").addEventListener("click", function (){
-        var goombaTotal = document.getElementById('goomba-total').innerHTML; 
-        var bobombTotal = document.getElementById('bobomb-total').innerHTML;
-        var cheepTotal = document.getElementById('cheep-total').innerHTML;    
-        var myResult = parseInt(cheepTotal) + parseInt(bobombTotal) + parseInt(goombaTotal);
-         document.getElementById("sum").innerHTML = myResult
-    });
-
+document.getElementById("button").addEventListener("click", function () {
+    var goombaTotal = document.getElementById('goomba-total').innerHTML;
+    var bobombTotal = document.getElementById('bobomb-total').innerHTML;
+    var cheepTotal = document.getElementById('cheep-total').innerHTML;
+    var myResult = parseInt(cheepTotal) + parseInt(bobombTotal) + parseInt(goombaTotal);
+    document.getElementById("sum").innerHTML = myResult
+});
