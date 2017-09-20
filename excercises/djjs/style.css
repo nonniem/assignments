@@ -1,25 +1,6 @@
-.box {
-    font-size: 5em;
-    height: 500px;
-    width: 500px;
-    background-color: #ffffff;
-    position: relative;
-    top: 150px;
-    left: 470px;
-    border: 1px solid #555555;
-}
-.box:hover {
-    background-color: #55bfed;
-    border: 1px solid #555555;
-}
-.box:focus {
-    background-color: #ffff77;
-    border: 1px solid #555555;
-}
-.box:active {
-    background-color: #ff2266;
-    border: 1px solid #555555;
-}
-:focus {
-    outline: 0;
+.button {
+    height: 400px;
+    width: 400px;
+    text-align: center;
+    border: 1px solid black;
 }
