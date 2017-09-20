@@ -2,9 +2,9 @@
 var cars = ["carrot", "tomato", "letus"] 
 
 
-//for (var i = 0; i < cars.length; i++) {  
-//  console.log(`${cars[i]} goes vroom`);
-//}
+for (var i = 0; i < cars.length; i++) {  
+  console.log(`${cars[i]} goes vroom`);
+}
 
 cars.forEach(function(car){
     console.log(car);
@@ -99,7 +99,7 @@ for (var i = 0; i < cars.length; i++) {
     numberOfchevys ++;
   }
 }
-
+var cars = ["chevy, ford"]
 
 
 var carTotals = cars.reduce(function(previous, car){
@@ -108,10 +108,18 @@ var carTotals = cars.reduce(function(previous, car){
     }else if (cars.model === "ford"){
         return previous.numberOfFords++;
     } else {
-        return previous 
+        return previous;
     }
 }
 ,{ numberOfFords: 0, numberOfchevys: 0 })
+
+
+
+
+
+
+
+
 
 
 

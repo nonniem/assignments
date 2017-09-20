@@ -1,55 +1,157 @@
-.right{
+body {
+    font: 20px georgia, sans-serif;
+}
+
+.right {
     background-color: blueviolet;
     opacity: .15;
-    height: 1500px;
+    height: 300px;
 }
 
 .left {
     height: 300px;
 }
- 
+
 .topimage {
-    background:  url(http://www.csszengarden.com/214/huntington.jpg);
+    background: url(http://www.csszengarden.com/214/huntington.jpg);
     height: 300px;
 }
 
 .watermark {
-    width: 20%;
-    left: 30%;
-    top: 35px;
+    width: 16%;
+    left: 20%;
+    top: 65px;
 }
 
 h1 {
-     top: 80px;
-    left: 20%;
+    top: 80px;
+    left: 10%;
 }
 
 h2 {
     top: 60px;
-    left: 20%;
+    left: 10%;
 }
-#arrow{
-    width: 120px;
-    height: 40px;
+
+#arrow {
+    width: 40%;
+    height: 25%;
+     font-size: 80%;
 }
 
 #button {
-    width: 40px;
-    height: 40px;
-   
+    width: 10%;
+    height: 25%;
+    font-size: 80%;
 }
 
 .side {
     height: 200px;
-     margin-top: 120px;
+    margin-top: 120px;
 }
-
 
 #css {
     text-decoration: underline dotted white;
     opacity: ;
 }
-#head1,#head2 {
+
+#head1, #head2 {
     color: white;
-    opacity:  .6;
+    opacity: .6;
+}
+
+#head1 {
+    font-size: 200%;
+}
+
+#head2 {
+    font-style: italic;
+    font-size: 160%;
+}
+
+.p2 {
+    height: 920px;
+    line-height: 27px;
+    padding-left: 10%;
+    padding-top: 5%;
+    padding-right: 5%;
+    background: white;
+    
+}
+
+.p3 {
+    float: right;
+    height: 920px;
+    background: blue;
+}
+
+.p4 {
+    height: 770px;
+    background: green;
+    line-height: 27px;
+    padding-left: 10%;
+    padding-top: 5%;
+    padding-right: 5%;
+}
+
+.p5 {
+    float: right;
+    height: 770px;
+    background: orange;
+}
+
+.p6 {
+    height: 820px;
+    line-height: 27px;
+    padding-left: 10%;
+    padding-top: 5%;
+    padding-right: 5%;
+    background: white;
+}
+
+.p7 {
+    float: right;
+    height: 820px;
+    background: black;
+}
+
+.p8 {
+    height: 350px;
+    line-height: 27px;
+    padding-left: 15%;
+    padding-top: 10%;
+    padding-right: 15%;
+    background-image: url(http://www.csszengarden.com/214/koi.jpg)
+}
+
+.p8 {
+    font: italic 1.5em georgia, sans-serif;
+	letter-spacing: 1px; 
+    line-height: 60px;
+}
+
+.p9 {
+    float: right;
+    height: 160px;
+    background: teal;
+}
+
+.p4, .p2, .p6 {
+    font: italic normal  georgia, sans-serif;
+	letter-spacing: 1px; 
+}
+
+.z12, .z13, .z14, .z15, .z16 {
+    font: italic normal georgia, sans-serif;
+	letter-spacing: 1px; 
+} 
+
+.question, .road, .partake, .benefit, .require{
+    font: italic normal 1.4em georgia, sans-serif;
+	letter-spacing: 1px; 
+}
+
+.bot {
+    color: yellow;
+    padding-left: 20%
 }
