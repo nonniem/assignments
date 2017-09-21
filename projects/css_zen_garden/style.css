@@ -18,9 +18,9 @@ body {
 }
 
 .watermark {
-    width: 16%;
-    left: 20%;
-    top: 65px;
+    width: 160px;
+    margin-top: 40px;
+    margin-left: 100px
 }
 
 h1 {
@@ -34,20 +34,25 @@ h2 {
 }
 
 #arrow {
-    width: 40%;
-    height: 25%;
-     font-size: 80%;
+    width: 60%;
+    height: 60px;
+    font-size: 80%;
+    margin-top: 100px;
 }
 
 #button {
     width: 10%;
-    height: 25%;
+    height: 60px;
     font-size: 80%;
+    margin-top: 100px;    
+}
+
+.buttons {
+    align-items: center;
 }
 
 .side {
     height: 200px;
-    margin-top: 120px;
 }
 
 #css {
@@ -58,10 +63,14 @@ h2 {
 #head1, #head2 {
     color: white;
     opacity: .6;
+   
 }
 
 #head1 {
     font-size: 200%;
+    padding-top: 60px;
+    
+    
 }
 
 #head2 {
@@ -76,13 +85,12 @@ h2 {
     padding-top: 5%;
     padding-right: 5%;
     background: white;
-    
 }
 
 .p3 {
-    float: right;
     height: 920px;
-    background: blue;
+    background: #c0cac3;
+    opacity: .1;
 }
 
 .p4 {
@@ -95,7 +103,6 @@ h2 {
 }
 
 .p5 {
-    float: right;
     height: 770px;
     background: orange;
 }
@@ -110,7 +117,6 @@ h2 {
 }
 
 .p7 {
-    float: right;
     height: 820px;
     background: black;
 }
@@ -119,19 +125,17 @@ h2 {
     height: 350px;
     line-height: 27px;
     padding-left: 15%;
-    padding-top: 10%;
-    padding-right: 15%;
-    background-image: url(http://www.csszengarden.com/214/koi.jpg)
+    padding-top: 7%;
+    background-image: url(http://www.csszengarden.com/214/koi.jpg);
+    font: italic 1.5em georgia, sans-serif;
+	letter-spacing: 2px; 
+    line-height: 60px;
+    padding-right: 200px;
+    text-align: center;
 }
 
-.p8 {
-    font: italic 1.5em georgia, sans-serif;
-	letter-spacing: 1px; 
-    line-height: 60px;
-}
 
 .p9 {
-    float: right;
     height: 160px;
     background: teal;
 }
@@ -151,7 +155,22 @@ h2 {
 	letter-spacing: 1px; 
 }
 
-.bot {
-    color: yellow;
-    padding-left: 20%
+#sidebar2 {
+    width: 411.25;
+    height: 800;
+    padding-top: 60px;
+    padding-left: 75px;
 }
+
+#sidebox {
+    width: 70%;
+    height: 114px;
+    border-bottom: solid 2px;
+    padding-top: 20px;
+    line-height: 30px;
+}
+
+#sidebox > a {
+    font: black;
+}
+@media (min-width:)
