@@ -1,9 +1,14 @@
 body {
-    font: 20px georgia, sans-serif;
+    font: 18px georgia, sans-serif;
+	line-height: 1.88889;
+	color: rgba(50, 80, 80,1); 
+	background: #fff url(http://csszengarden.com/001/blossoms.jpg) no-repeat bottom right; 
+	margin: 0; 
+	padding: 0;
 }
 
 .right {
-    background-color: blueviolet;
+    background-color: rgba (31,140,100,0.2);
     opacity: .15;
     height: 300px;
 }
@@ -19,7 +24,7 @@ body {
 
 .watermark {
     width: 160px;
-    margin-top: 40px;
+    margin-top: 60px;
     margin-left: 100px
 }
 
@@ -34,21 +39,22 @@ h2 {
 }
 
 #arrow {
-    width: 60%;
+    width: 70%;
     height: 60px;
     font-size: 80%;
-    margin-top: 100px;
+    margin-top: 110px;
+    font-family: 'Julius Sans One', sans-serif;
+    font-size: 1em;
+    font-style: normal;
+    text-transform: uppercase;
+    background: white
 }
 
 #button {
     width: 10%;
     height: 60px;
-    font-size: 80%;
-    margin-top: 100px;    
-}
-
-.buttons {
-    align-items: center;
+    font-size: 1em;
+    color: rgba();
 }
 
 .side {
@@ -62,20 +68,18 @@ h2 {
 
 #head1, #head2 {
     color: white;
-    opacity: .6;
-   
 }
 
 #head1 {
     font-size: 200%;
-    padding-top: 60px;
-    
+    padding-top: 90px;
     
 }
 
 #head2 {
     font-style: italic;
     font-size: 160%;
+    opacity: .6;
 }
 
 .p2 {
@@ -89,22 +93,33 @@ h2 {
 
 .p3 {
     height: 920px;
-    background: #c0cac3;
-    opacity: .1;
+    opacity: .6;
+    background-color: rgba(31,140,100,0.33)
 }
 
 .p4 {
     height: 770px;
-    background: green;
     line-height: 27px;
     padding-left: 10%;
     padding-top: 5%;
     padding-right: 5%;
 }
 
+.r3 {
+    background-image: url(http://www.csszengarden.com/214/bamboo.png);
+     background-color: rgba(31,140,100,0.2)
+}
+
+.p9 {
+    padding-top: 55px;
+    padding-left: 190px;
+    right: 
+}
+
 .p5 {
     height: 770px;
-    background: orange;
+     background-color: rgba(31,140,100,0.03)
+   
 }
 
 .p6 {
@@ -113,12 +128,13 @@ h2 {
     padding-left: 10%;
     padding-top: 5%;
     padding-right: 5%;
-    background: white;
+    background-color:  ghostwhite;
 }
 
 .p7 {
     height: 820px;
     background: black;
+    background-color: rgba(31,140,100,0.13)
 }
 
 .p8 {
@@ -132,12 +148,13 @@ h2 {
     line-height: 60px;
     padding-right: 200px;
     text-align: center;
+    color: ghostwhite;
 }
 
 
 .p9 {
     height: 160px;
-    background: teal;
+    background: #134347;
 }
 
 .p4, .p2, .p6 {
@@ -157,20 +174,133 @@ h2 {
 
 #sidebar2 {
     width: 411.25;
-    height: 800;
-    padding-top: 60px;
+    height: 750px;
+    padding-top: 20px;
     padding-left: 75px;
 }
 
-#sidebox {
-    width: 70%;
+#sidebar3 {
+    width: 411.25;
+    height: 750px;
+    padding-top: 20px;
+    padding-left: 75px;
+    color: black;
+}
+
+#links {
+    margin-bottom: 0.25em;
+    font-family: 'Julius Sans One', sans-serif;
+    font-size: 1em;
+    font-style: normal;
+    text-transform: uppercase;
+}
+
+#sidebox1 {
+    width: 90%;
     height: 114px;
     border-bottom: solid 2px;
-    padding-top: 20px;
-    line-height: 30px;
+    padding-top: 40px;
+    line-height: 25px;
+    background: rgba();
+}
+
+
+#sidebox {
+    width: 80%;
+    height: 114px;
+    border-bottom: solid 2px;
+    padding-top: 28px;
+    line-height: 25px;
 }
 
 #sidebox > a {
     font: black;
 }
+
+
+.bold{
+    margin-bottom: 0.25em;
+    font-family: 'Julius Sans One', sans-serif;
+    font-size: 1em;
+    font-style: normal;
+    text-transform: uppercase;
+    color: black;
+}
+
+.links {
+     color: black;
+}
+
+#by {
+    color: black;
+    opacity: .8;
+}
+
+#logo {
+    width: 15%;
+    padding-left: 6%;
+    
+}
+
+#test {
+    font: 'verdemoderna';
+}
 @media (min-width:)
+    
+    
+    
+    
+    
+    
+    
+/*    font stuff*/
+    /* latin-ext */
+@font-face {
+  font-family: 'Julius Sans One';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Julius Sans One'), local('JuliusSansOne-Regular'), url(http://fonts.gstatic.com/s/juliussansone/v5/iU65JP9acQHPDLkdalCF7pQnCV4ii-F0S-GDf6mWM7Q.woff2) format('woff2');
+  unicode-range: U+0100-024F, U+1E00-1EFF, U+20A0-20AB, U+20AD-20CF, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+  font-family: 'Julius Sans One';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Julius Sans One'), local('JuliusSansOne-Regular'), url(http://fonts.gstatic.com/s/juliussansone/v5/iU65JP9acQHPDLkdalCF7pbhOpL-vLTkIjCTuVYsuO0.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215;
+}
+/* latin-ext */
+@font-face {
+  font-family: 'Libre Baskerville';
+  font-style: italic;
+  font-weight: 400;
+  src: local('Libre Baskerville Italic'), local('LibreBaskerville-Italic'), url(http://fonts.gstatic.com/s/librebaskerville/v4/QHIOz1iKF3bIEzRdDFaf5RObNE73mVYEPR_8pi-Us2X2Ot9t5h1GRSTIE78Whtoh.woff2) format('woff2');
+  unicode-range: U+0100-024F, U+1E00-1EFF, U+20A0-20AB, U+20AD-20CF, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+  font-family: 'Libre Baskerville';
+  font-style: italic;
+  font-weight: 400;
+  src: local('Libre Baskerville Italic'), local('LibreBaskerville-Italic'), url(http://fonts.gstatic.com/s/librebaskerville/v4/QHIOz1iKF3bIEzRdDFaf5fbsUggLxuOzHNuXcSFlTaY.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215;
+}
+/* latin-ext */
+@font-face {
+  font-family: 'Libre Baskerville';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Libre Baskerville'), local('LibreBaskerville-Regular'), url(http://fonts.gstatic.com/s/librebaskerville/v4/pR0sBQVcY0JZc_ciXjFsK56jerHLVJWaC-9Ja-RK4Ug.woff2) format('woff2');
+  unicode-range: U+0100-024F, U+1E00-1EFF, U+20A0-20AB, U+20AD-20CF, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+  font-family: 'Libre Baskerville';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Libre Baskerville'), local('LibreBaskerville-Regular'), url(http://fonts.gstatic.com/s/librebaskerville/v4/pR0sBQVcY0JZc_ciXjFsK8j0T1k_tV7QYhgnOhA2764.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215;
+}
+
+
