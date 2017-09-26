@@ -1,0 +1,31 @@
+body {
+    font-family: fantasy inherit;
+    padding: 5px;
+    background-image: url(https://i.ytimg.com/vi/c47EvNbGgrk/maxresdefault.jpg);
+    float: right;
+}
+
+tr:nth-child(even) {
+    background-color: azure;
+}
+
+td {
+    border: solid 1px black;
+}
+
+th {
+    border-bottom: black 1px solid;
+}
+
+
+#travel {
+    padding: 20px;  
+}
+
+h5 {
+    text-align: center
+}
+
+h2 {
+    text-align: center;
+}

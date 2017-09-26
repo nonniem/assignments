@@ -1,0 +1,44 @@
+body {
+   font-family: Mario
+}
+
+#top {
+    width: 60%;
+    background-color: yellow;
+    height: 80px;
+}
+
+#second {
+      width: 60%;
+    background-color: red;
+    height: 360px;
+   padding-left: 15%
+}
+
+#third {
+      width: 60%;
+    background-color: white;
+    height: 150px;
+}
+
+#bottom {
+      width: 60%;
+    background-color: yellow;
+    height: 70px;
+}
+
+.text {
+    text-align: center;
+    width: 260px;
+}
+
+#mushroom {
+    float: right;
+}
+
+@font-face {
+    font-family: Mario;
+    src: url("font/")
+}
+
+

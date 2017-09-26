@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+<!--
+    <div>
+        <table>
+            <tr>
+                <th>Breakfast</th>
+                <th>Foods</th>
+                <th>Type</th>
+                <th>Color</th>
+                <th>Boyance</th>
+            </tr>
+            <tr>
+                <td>Sausage</td>
+                <td>Eggs</td>
+                <td>Buscuits</td>
+                <td>Grapes</td>
+                <td>Apple</td>
+            </tr>
+            <tr>
+                <td>Cheese</td>
+                <td>Lasagna</td>
+                <td>Appricote</td>
+                <td>Toast</td>
+                <td>Muffins</td>
+            </tr>
+            <tr>
+                <td>Guacamole</td>
+                <td>Red onions</td>
+                <td>Beets</td>
+                <td>Aspargaus</td>
+                <td>Lickorish</td>
+            </tr>
+        </table>
+    </div>
+-->
+<!--
+   
+       <br> <br> <br>
+-->
+        <h2>Schedule your trip now!</h2>
+         
+ <form>
+        <input id="Dates" type="name" placeholder="Destination" />
+        <input id="Dates" type="date" />
+    </form>
+    <br>
+
+    
+
+    <form id="travel" name="travel" action="user-data">
+        
+        <input type="text" name="firstname" placeholder="First Name">
+        <input type="text" name="lastname" placeholder="Last Name">
+        <input type="number" name="age" placeholder="Age"> 
+        
+        <br>
+        
+        <h5>Please select your gender</h5>
+        
+        <label id="travel">Male<input type="checkbox" name="male" value="male"/></label>
+        <label id="travel">Female<input type="checkbox" name="female" value="female"/></label>
+        <label id="travel">Undecided<input type="checkbox" name="undecided" /></label>
+        
+        <br>
+        
+        <h5>Where are we traveling to?</h5>
+        <label id="travel">Maui<input type="checkbox" name="maui"></label>
+        <label id="travel">Puerto Rico<input type="checkbox" name="puertorico"></label>
+        <label id="travel">Las Vegas<input type="checkbox" name="lasvegas"></label>
+        
+         <h5>Do we have any allergies or dietary restrictions?</h5>
+        <label id="travel">Latex<input type="checkbox" name="latex"></label>
+        <label id="travel">Dairy<input type="checkbox" name="dairy"></label>
+        <label id="travel">Tree Nuts<input type="checkbox" name="treenuts"></label>
+        <input type="text" name="other" placeholder="Other">
+        <br> <br>
+        <input type="button" onclick="showMessage()" name="addall" value="CondenseData" />
+    </form>
+
+    <script src="main.js" rel=""></script>
+</body>
+
+</html>

@@ -114,10 +114,20 @@ var carTotals = cars.reduce(function(previous, car){
 ,{ numberOfFords: 0, numberOfchevys: 0 })
 
 
+//
+//var nums = [200, 4, 100, 2345, 34546, 323, 24, 34];
+//
+//var sum = nums.reduce(function(curr, next) {
+//    console.log("Curr: " + curr);
+//    console.log("Next: " + next);
+//    console.log("");
+//    return curr + next;
+//}, 0)
+//
+//console.log(sum);
+//
 
-
-
-
+.=
 
 
 

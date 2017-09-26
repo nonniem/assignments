@@ -1,21 +1,29 @@
-var letters = ["a","b","c","d","e","f","g","h","i","j","k","l","m","n","o","p","q","r","s","t","u","v","w","x","y","z"]
-for (var i = 0; i < letters.length; i++)
+var readline = require('readline-sync');
+var input = readline.question('What phrase would you like to encrypt? ');
+var shift = parseInt(readline.question('How many letters would you like to shift? '));
 
+function caeser(input) {
 
-function result (){
-    for (letters[] + [3])
-        
+   var characters = input.split("");
+
+   return characters.map(function (letter) {
+        letter = letter.charCodeAt();
+
+       if (letter >= 97 && letter <= 109) {
+            letter += shift;
+        } else if (letter >= 110 && letter <= 122) {
+            letter -= shift;
+        } else if (letter >= 65 && letter <= 77) {
+            letter += shift;
+        } else if (letter >= 78 && letter <= 90) {
+            letter -= shift;
+        }
+
+       return String.fromCharCode(letter);
+    }).join("");
 }
 
-
-//var readline = require('readline-sync');  
-//var input = readline.question('What phrase would you like to encrypt? ').toLowerCase();  
-//var shift = parseInt(readline.question('How many letters would you like to shift? '));  
-
-
-console.log(letters[i])
-
-
+console.log(caeser(input, shift));
 
 
 
