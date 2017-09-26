@@ -19,7 +19,6 @@ function total () {
     var treenuts = document.travel.treenuts.checked;
     var other = document.travel.other.value;
     
-    console.log(form['gender'].value)
 
     var total = `${firstname}
                 ${lastname}
