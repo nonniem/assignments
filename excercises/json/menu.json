@@ -1,0 +1,79 @@
+{
+    "Appetizers": [
+        {
+            name: "mozzerella sticks",
+            ingredients: ["mozzerella", "parmesan"],
+            description: "tasty marinara"
+        },
+        {
+            name: "potato salad",
+            ingredients: ["potatos", "lettuce"],
+            description: " "
+        },
+
+        {
+            name: "stuffed mushrooms",
+            ingredients: ["Mushrooms", "garlic", "butter", "cumin"],
+            description: "Fantastic mushrooms filled with garlic butter and cumin."
+        }],
+
+
+    "Cold-sandwichs": [{
+            name: "mozzorella-turkey",
+            ingredients: ["mozzerella-cheese", "Turkey", "avacado", "dijon-mustard"],
+            description: "A tasty turkey sandwich with avacado and turkey. served w dijon mustard"
+        },
+        {
+            name: "tuna-crossiant",
+            ingredients: ["Crossiant roll", "Tuna", "White onions", "Caper juice"],
+            description: "A fabulous tuna croissant served with onions and capers juice"
+        },
+        {
+            name: "la-Baquette", 
+            ingredients: ["french baquette", "Pastrami", "oil & vinegar", "mushrooms marsala"],
+            description: "A french baquette. this thing has more swag than me. Fsho"
+        }],
+
+    "Hot-sammys": [{
+            name: "spicy-gumbo flatbread",
+            ingredients: ["spicy gumbo meat", "bell peppers", "red pepper", "cumin"],
+            description: "a spicy sausage gumbo sammy"
+        },
+        {
+            name: "meatball-cheddar",
+            ingredients: ["meatballs", "cheddar-cheese", "italian bread", "gaspachio soup"],
+            description: "a meatball sandwich served with cheddar cheese on a nice homeade italian loaf."
+        },
+        {
+            name: "pistachio-panini",
+            ingredients: ["pistachio's", "flatbread", "provolone-cheese"],
+            description: "a flat panini garnished with pistachios and provolone cheese."
+        }],
+
+    "Desserts": [{
+            name: "chocolate-truffle",
+            ingredients: ["chocolate", "cream"],
+            description: "Tasty candy. a choice favorite"
+        },
+        {
+            name: "Pecan-truffle",
+            ingredients: ["pecans", "chocolate-mooose"],
+            description: "a folded pecan truffle turtle. dessert and tasty goods."
+        },
+        {
+            name: "mooose",
+            ingredients: ["cream", "chocolate", "love", "compassion"],
+            description: "a tasty chocolate dessert"
+        }],
+
+    "Drink": [{
+            name: "coca-cola",
+            flavors: ["vanilla", "cherry"]
+        },
+        {
+            name: "fanta",
+            Flavors: ["grape", "orange"]
+        }]
+
+
+}

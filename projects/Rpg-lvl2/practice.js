@@ -4,22 +4,22 @@ var name = readlineSync.question("Welcome to my RPG, Please state your name.")
 var inventory = ["Potato"];
 var health = 99;
 
+
 var characters = [
     {
-        name: "King Kong"
+        name: "King Kong",
         weapon: "Banana"
     },
     {
-        name: "Tupac"
+        name: "Tupac",
         weapon: "Glock"
     },
     {
-        name: "T-rex"
-        Weapon: "Tiny Arms"
+        name: "T-rex",
+        weapon: "Tiny Arms"
     }
 ]
 
-var ememy = '';
 
 var enemies = [
     {
@@ -28,11 +28,11 @@ var enemies = [
     },
     {
         name: "Holly Berry",
-        style: "81"
+        power: "81"
     },
     {
         name: "Chuck E Cheese",
-        cheesiness: "99"
+        power: "99"
     }
 ];   // object within an array randomly choose
 
@@ -89,12 +89,12 @@ function castle() {
 }
 
 function woods() {
-    var wooded = ["", ""];
-    var wood = readlineSync.keyInSelect(wooded, "");
+    var wooded = ["Go to the Castle", "Run!"];
+    var wood = readlineSync.keyInSelect(wooded, "Idk why were in the woods, i want some snacks. lets head to the castle.");
     if ( === 1) {
-        ();
+        castle();
     } else {
-        ();
+        run();
     }
 }
 
@@ -109,23 +109,39 @@ function hyperventilate() {
 }
 
 function death(){
+    console.log("good game m8. better luck next time..")
     
 }
 
 function WOL() {
-    var waterOfLife = ["", ""];
-    var waterOflifed = readlineSync.keyInSelect(waterOfLife, "")
-    if ( === 1) {
+    var waterOfLife = ["Go with the fairy", "Fight!"];
+    var waterOflifed = readlineSync.keyInSelect(waterOfLife, "You have drank the magical water! A fairy has appeared and wants to take you to her home. But you arent sure! do you want to fight or go with her.")
+    if (waterOfLife === 1) {
         ();
     } else {
-        ();
+        battle();
     }
 }
 
 function battle(){
-    var battles = ["", ""]
-     
+   var champ = characters.map(function(character){
+        return character.name;
+        return character.power;
+})
+    var battled = readlineSync.keyInSelect(champ, "Choose your champion!")
+        
 }
+
+function attack(){
+        if (randomNum(1, 2) === 1) {
+            console.log("Ya slayed em"); 
+                enemyAttack(); 
+        } else {
+            console.log("You slipped and the enemy started laughing. He let you go!"), 
+                enemyRun();
+        }
+    }
+
 
 
 function checkInventory() {
@@ -135,6 +151,32 @@ function checkInventory() {
 while (true) {
     walk();
 }
+
+
+
+
+
+
+
+
+
+//you will start the game and load in.
+//youll choose what youd like to do first, you can go into the abyss or check your inventory.
+//if you check your inventory, you will loop back to the beginning and then go into the abyss
+//youll have two choices, you can go into the castle or the woods
+//if you go into the woods you'll end up back in the castle where you'll fight.
+// you will get to choose which champion youd like to fight with and then you are randomly given an enemy to fight.
+//
+
+
+
+
+
+
+
+
+
+
 
 
 
