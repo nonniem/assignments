@@ -43,8 +43,8 @@ describe("A calculator", function () {
 describe("lastNums", function () {
     
     it("should tell us if the last number for each arguement is the same. if it is it will return true. if not it should return false", function(){
-        assert.isTrue(lastNums(4008, 4008));
-        assert.isFalse(lastNums(101, 11))
+        assert.equal(lastNums(4000, 4008));
+        assert.equal(lastNums(101, 11));
     });
     
 });

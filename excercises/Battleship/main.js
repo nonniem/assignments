@@ -8,9 +8,9 @@ function isShip() {
 }
 
 function Location() {
-    this.isShip: isShip();
-    this.hit: false;
-    this.display: "~";
+    this.isShip = isShip;
+    this.hit = false;
+    this.display = "~";
 }
 
 function makeGrid(){
@@ -26,7 +26,7 @@ var grid = [];
     return grid;
 }
         var grid = makeGrid();
-    console.lastIndexOf(grid);
+    console.log();
 
 
 function userGuess() {

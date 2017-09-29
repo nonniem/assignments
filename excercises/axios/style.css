@@ -1,0 +1,39 @@
+#left {
+    background-color: darkmagenta;
+    height: 200px;
+}
+
+#right {
+    background-color: yellowgreen;
+    height: 200px;
+}
+
+input {
+    background-color: deepskyblue;
+    caret-color: aliceblue;
+    display: block;
+}
+
+button {
+    float: right;
+}
+
+#displayText {
+    height: 200px;
+    background-color: darkgoldenrod;
+}
+
+.theSpot {
+    margin-top: 50px;
+    margin-left: 20px;
+}
+
+#displayApi {
+     height: 200px;
+    background-color: lightpink;
+}
+
+#listItems {
+    margin-top: 50px;
+    margin-left: 20px;
+}
