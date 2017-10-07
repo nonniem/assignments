@@ -1,11 +1,22 @@
 var goombaPrice = parseInt(document.getElementById("goomba-price").innerHTML)
 
 
-document.getElementById("Calculate").addEventListener("click", function () {
-    var goombaCount = parseInt(document.getElementById("goomba-count").value);
+$('#Calculate').click (function () {
+    var goombaCount = parseInt($("#goomba-count").val());
     var goombaTotal = goombaPrice * goombaCount;
-    document.getElementById("goomba-total").innerHTML = goombaTotal
+    $("#goomba-total").html (goombaTotal)
 });
+
+
+$('document').ready(function (){
+        $('#calculate').click(function () {
+            var audio = [];
+            audio("walk")
+        })
+});
+
+
+
 
 
 

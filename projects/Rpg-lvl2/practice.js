@@ -1,11 +1,11 @@
 //good beginning for the project. created in class. dont have to use but could be a good reference point.
 var readlineSync = require("readline-sync");
 
-var name = readlineSync.question("Welcome to my RPG this is not a test, Please state your name ______.")
+var name = readlineSync.question("Welcome to my RPG this is not a test, Please state your name ______.   ")
 
 var inventory = ["Potato", "Muffins"];
 
-var health = 99;
+var hitpoints = 99;
 
 var characters = [
     {
@@ -45,17 +45,17 @@ function percentage(min, max) {
 
 function walk() {
     var options = ["Go into the Abyss", "Check your inventory"];
-    var option = readlineSync.keyInSelect(options, "What would you like to do " + name + "?")+1;
+    var option = readlineSync.keyInSelect(options, "What would you like to do " + name + "? Lets go on our adventure!")+1;
     if (option === 1) {
         goIntoTheAbyss();
-    } else {
-        checkInventory();
+        } else {
+            checkInventory();
     }
 }
 
 function run() {
     var runs = ["walk", "Continue to hyperventilate"]
-    var runner = readlineSync.keyInSelect(runs, "Are you sure you have the cardio for this? I thought you were a smoker!")+1;
+    var runner = readlineSync.keyInSelect(runs, "Are you sure you sure we have the cardio for this? We smoke dude! ")+1;
     if (runner === 1) {
         walk();
     } else {
@@ -65,17 +65,17 @@ function run() {
 
 function goIntoTheAbyss (){
     var choices = ["Castle", "Woods"]
-    var choice = readlineSync.keyInSelect(choices, "Are you ready for your journey?" + name + "Do you want to go into the castle or would you like to go into the woods?")+1;
+    var choice = readlineSync.keyInSelect(choices, "Are you ready for your journey " + name + "? Its time to make a tough decision, we can either head into the woods or we can go to the castle?")+1;
     if (choice === 1) {
         castle();
     } else {
         woods();
     }
-}
+}1
 
 function castle (){
     var castles = ["Battle", "run"]
-    if (percentage(1, 4) === 1) {
+    if (percentage(1, 2) === 1) {
         var castled = readlineSync.keyInSelect(castles, "The king greets you with love and compassion, but he saw you look at his daughter and tensions rise. Battle?")+1;
         if (castled === 1) {
             battle();
@@ -89,11 +89,16 @@ function castle (){
 
 function woods() {
     var wooded = ["Go to the Castle", "Run!"];
-    var wood = readlineSync.keyInSelect(wooded, "Idk why were in the woods, i want some snacks. lets head to the castle.")+1;
-    if (wood === 1) {
-        castle();
-    } else {
-        run();
+    if (percentage(1, 2) === 1){
+        var wood = readlineSync.keyInSelect(wooded, "Idk why were in the woods, i want some snacks. lets head to the castle.")+1;
+         if (wood === 1) {
+             castle();
+            } else {
+                run();
+            }
+         } else {
+             hyperventilate()
+        console.log("suck em");
     }
 }
 
@@ -119,7 +124,7 @@ function WOL (){
 
 function fairy (){
     var fairied = ["Bed with fairy", "Street Taco's"];
-    var fairies = readlineSync.keyInSelect(fairied, "The magical fairy Bares gifts to offer and gives you two choices. You can choose to take the beautiful fairy to her bed. Or get street tacos.. it is unlimited street tacos. condiments included.") + 1;
+    var fairies = readlineSync.keyInSelect(fairied, "A magical fairy comes to you and bares gifts to offer and gives you two choices. You can choose to take the beautiful fairy to her bed. Or get street tacos.. it is unlimited street tacos. condiments included...tough decisions tough decisions.") + 1;
     if(fairies === 1){
        bed();
        }else {
@@ -131,10 +136,10 @@ function battle(){
        var champ = characters.map(function(character){
         return character.name;
         return character.power});
-        var battled = readlineSync.keyInSelect(champ, "Choose your champion!") 
+        var battled = readlineSync.keyInSelect(champ, "Choose your champion! please") 
         var champ = champ[battled];
         var enemy = enemies[percentage(0, enemies.length)]
-        console.log(enemy.name + " Is your enemy");
+        console.log(enemy.name + " is your enemy");
       attack(enemy);
 }
 
@@ -154,15 +159,16 @@ function add(){
 };
 
 function secondAttack(enemy){
-    if(percentage(1, 1) === 1){
+    hitpoints = hitpoints - percentage(1, 50); 
         add(inventory);
-        console.log("You have killed the " + enemy.name + <br> ", in the distance. A fairy princess is admiring you and starts to approach you.");
+        console.log("You have killed the " + enemy.name + " a long battle. as blood pours off your face. A fairy princess appears and wants to meet you " + name);
+        console.log("your hitpoints level is now: " + hitpoints);
                 fairy(enemy);
     } 
-}
+
 
 function enemyAttack(enemy){
-    if(percentage(1, 20) === 19){
+    if (percentage(1, 20) === 19){
         console.log("He got lucky and shanked ya. GG");
             death();
     } else {
@@ -201,9 +207,11 @@ function checkInventory() {
     console.log(inventory);
 }
 
-while (true) {
+while (hitpoints > 30) {
     walk();
 }
+
+death();
 
 
 //you will start the game and load in.

@@ -1,0 +1,144 @@
+html {
+  background: url("http://wearelivingalive.com/wp-content/uploads/2014/07/carrots-health-benefits-and-nutrition-facts1.jpg") no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.You {
+  color: red;
+}
+
+.Tube {
+  color: black;
+}
+
+.footer {
+  bottom: 20px;
+  position: absolute;
+  right:50px;
+
+}
+
+.title {
+  right: 20px;
+  top: 0px;
+  position: absolute;
+  text-decoration: underline;
+}
+
+.carrit {
+  color: #FF9D00;
+}
+
+.gorilla {
+  right: 75px;
+  bottom: 110px;
+  width: 350px;
+  position: absolute;
+}
+
+.gif {
+  width: 300px;
+  top: 75px;
+  left: 30px;
+  position: absolute;
+}
+/* Add a black background color to the top navigation */
+.topnav {
+    background-color: #000000;
+    overflow: hidden;
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+    float: left;
+    display: block;
+
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+    background-color: #ddd;
+    color: yellow;
+}
+
+/* Add a color to the active/current link */
+.topnav a.active {
+    background-color: #4CAF50;
+    color: purple;
+}
+
+#loading {
+		text-align: center;
+		padding: 100px 0 0 0;
+		color: #fff;
+		background: #1d1f20;
+    padding-top: 0px;
+    position: absolute;
+    bottom: 130px;
+    right: 550px;
+}
+
+.carritz {
+  position: relative;
+  display: inline;
+  padding: 130px;
+  color: #FF9D00;
+}
+
+.carritzz {
+  bottom: 0px;
+  position: absolute;
+}
+
+.soup {
+  width: 150px;
+  position: absolute;
+  display: inline-block;
+  padding-left: 25px;
+  letter-spacing: 1px;
+  text-align: right;
+  left: 300px;
+}
+
+#loading {
+		-webkit-animation: rotation 2s infinite linear;
+}
+
+@-webkit-keyframes rotation {
+		from {
+				-webkit-transform: rotate(0deg);
+		}
+		to {
+				-webkit-transform: rotate(359deg);
+		}
+}
+
+
+
+
+.purplec {
+  color: purple;
+}
+
+.yellowc {
+  color: yellow;
+}
+
+.whitec {
+  color: white;
+}
+
+.orangec {
+  color: orange;
+}
+
+.morec {
+  color: green;
+}

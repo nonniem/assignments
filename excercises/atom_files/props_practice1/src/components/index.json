@@ -1,0 +1,62 @@
+[{
+    "message": "I want some snacks",
+    "name": "Yu",
+    "breed": "Husky",
+    "imagelinkity": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ1a8OOqSooUe5O55xk_RUkWvmbP3EyySX5LmC2v7D9a2WHdOON",
+    "weight": "3lbs"
+  },{
+    "message": "Do you have any chips?",
+    "name": "Puie",
+    "breed": "Husky",
+    "imagelinkity": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQIh42F7z85IgX-ddsV9_etEIaZY8Kw4VZFKTklLF6DG_YGrnGpgQ",
+    "weight": "3lbs"
+  },{
+    "message": "Barries",
+    "name": "Berry",
+    "breed": "Grapes",
+    "imagelinkity": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT2Wx7KpNjZpeP2-zo7Nc6DVkxmH1nfN4G6cmQ9s20N3jvWZ7HgDg",
+    "weight": "3lbs"
+  },{
+    "message": "Snacks?",
+    "name": "Oatless",
+    "breed": "Husky",
+    "imagelinkity": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS5kVKcX8I6VodXbqwEWTqy6e1Ot_itJl8wEygRvz_pHJSwnuOg",
+    "weight": "35lbs"
+  },{
+    "message": "I like to eat tennis balls",
+    "name": "Tiwando",
+    "breed": "Corgi",
+    "imagelinkity": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS_ULPrAOnZ-1YHcYJau1ek78vhThxXNw64bE6NxwzXMeTnbmFL",
+    "weight": "300lbs"
+  },{
+    "message": "kibbles?!!!!!",
+    "name": "Tyrown",
+    "breed": "Husky",
+    "imagelinkity": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRQokFC_BLXwoZ-HDIez6v2t3fG6Oi5AAA357y7xXk_wUCNvUIe",
+    "weight": "33lbs"
+  },{
+    "message": "Buscuits? r nah",
+    "name": "Skirrtle",
+    "breed": "Husky",
+    "imagelinkity": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQyVO3e5NW4tWs4ZW70bVnIER10ZJCclhX5Zoj-4YfT9GhbGHxO",
+    "weight": "38lbs"
+  },{
+    "message": "Clementines",
+    "name": "Zippy",
+    "breed": "Husky",
+    "imagelinkity": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTU_ud1YPHUY1Xuc-ZFts0CTUce8AW4X67_IO5CsgE-eI1kl3y8wQ",
+    "weight": "63lbs"
+  },{
+    "message": "do you has any snacks for me?",
+    "name": "Ziggity",
+    "breed": "Husky",
+    "imagelinkity": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRnGwzNcaX7MK2amAdzO-mqq8o1hRXaXm-qhz1wH047y3JNn7sSYQ",
+    "weight": "47bs"
+  },{
+    "message": "i'll only pee on the carpet a few times",
+    "name": "Bongo",
+    "breed": "Husky",
+    "imagelinkity": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR00mWhJRiVDYg2Pa2PFR9otmm_vbsCWpYpOeXuNgFERdhvfoBx",
+    "weight": "53lbs"
+  }
+]
