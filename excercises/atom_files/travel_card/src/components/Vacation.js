@@ -3,45 +3,39 @@ import React from "react";
 function Vacation(props){
 const styles = {
     background: "url("+props.background+") no-repeat center center",
-    width: "200px",
+    width: "170px",
     height: "280px",
     display: "inline-block",
     position: "relative",
-    alignItems: "center"
-  }
-
-const content = {
-    display: "inline-block",
-    position: "absolute",
-    bottom: "0px",
-    left: "20px",
-    color: "yellow"
+    alignItems: "center",
+    border: "solid 5px white"
   }
 
 const details = {
-    color: "purple",
+    color: "white",
     textAlign: "center"
 }
 
 const position = {
-    alignItems: "center",
     position: "ablsolute",
-    display: "inline-block"
+    backgroundSize: "cover",
+    display: "inline-block",
+    margin: "40px"
 }
 
 const destiny = {
     top: "15px",
-    left: "15px",
     position: "relative",
     display: "inline-block",
     background: "black",
     color: "white",
-    width: "170px"
+    width: "180px",
+    textAlign: "center"
 }
 
 const signature = {
     position: "relative",
-    left: "20px",
+    left: "5px",
     top: "-20px",
     fontFamily: "monospace",
     color: "white"
