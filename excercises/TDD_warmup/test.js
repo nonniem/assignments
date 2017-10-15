@@ -1,23 +1,14 @@
 
-function add(a, b){
-    return a + b;
-}
 
-function multiply(a, b){
-    return a * b;
-}
+var balancedParens = function(str) {
+  var stack = [];
+  var open = { '{': '}', '[': ']', '(': ')' };
+  var closed = { '}': true, ']': true, ')': true };
 
-function divide(a, b){
-    return a / b;
-}
-
-function sub(a, b){
-    return a - b;
-}
-
+    
 var describe = function(message, testFunc){
     try {
-        testFunc();
+        balancedParens();
     } catch(err) {
         console.error("failure", err);
     }
@@ -31,10 +22,29 @@ var assert = function(actual, expected) {
      }
 }
 
-describe("Test group", function(){
-    assert(add(1, 2), 3)
-    assert(multiply(2, 6), 12)
-    assert(divide(9, 3), 3)
-    assert(sub(900, 700), 200)
-});
+
+  for (var i = 0; i < str.length; i ++) {
+    var chr = str[i];
+    if (open[chr]) {
+      stack.push(chr);
+    } else if (closed[chr]) {
+      if (open[stack.pop()] !== chr) return false;
+    }
+  }
+
+  return stack.length === 0;
+};
+
+
+describe("Test Group", function(){
+    assert(balancedParens('('));  // false
+    assert(balancedParens('()')); // true
+    assert(balancedParens(')('));  // false
+    assert(balancedParens('(())'));  // true
+    assert(balancedParens('[](){}')); // true
+    assert(balancedParens('[({})]'));   // true
+    assert(balancedParens('[(]{)}')); // false
+    assert(balancedParens('var supYo  = { hey: dog() }')); // true
+    assert(balancedParens('var fiddle = function() { doggy.eat();')); // false
+    });
 

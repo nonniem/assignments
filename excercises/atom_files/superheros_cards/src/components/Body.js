@@ -2,17 +2,19 @@ import React from "react";
 
 function Body(props){
   const container = {
-    width: "30%",
+    width: "40%",
     height: "300px",
     border: "black 2px dashed",
     display: "inline-block",
     margin: "20px",
     textAlign: "center",
-
+    background: "limegreen"
   }
+
   const yaah = {
     border: "black dashed 1px"
   }
+
   const color = {
     textDecoration: "black solid 1px"
   }
