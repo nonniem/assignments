@@ -1,0 +1,16 @@
+.show{
+    display: inherit;
+}
+
+.hide{
+    display: none;
+}
+
+.styled{
+  background: beige;
+  margin:10px;
+}
+
+.style{
+  background: limegreen;
+}

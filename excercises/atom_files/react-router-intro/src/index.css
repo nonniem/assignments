@@ -1,0 +1,15 @@
+.app-wrapper {
+  height: 100vh;
+}
+
+.nav{
+  width: 50%;
+  margin:auto;
+  display: flex;
+  justify-content: space-between;
+  border: purple 5px;
+  border-radius: 35%;
+  background: limegreen;
+  padding: 10px;
+
+}

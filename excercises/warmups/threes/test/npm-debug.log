@@ -1,0 +1,391 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/Users/nonniemartin/.nvm/versions/node/v6.11.3/bin/node',
+1 verbose cli   '/Users/nonniemartin/.nvm/versions/node/v6.11.3/bin/npm',
+1 verbose cli   'install',
+1 verbose cli   'node' ]
+2 info using npm@3.10.10
+3 info using node@v6.11.3
+4 verbose config Skipping project config: /Users/nonniemartin/.npmrc. (matches userconfig)
+5 silly loadCurrentTree Starting
+6 silly install loadCurrentTree
+7 silly install readLocalPackageData
+8 silly fetchPackageMetaData node
+9 silly fetchNamedPackageData node
+10 silly mapToRegistry name node
+11 silly mapToRegistry using default registry
+12 silly mapToRegistry registry https://registry.npmjs.org/
+13 silly mapToRegistry data Result {
+13 silly mapToRegistry   raw: 'node',
+13 silly mapToRegistry   scope: null,
+13 silly mapToRegistry   escapedName: 'node',
+13 silly mapToRegistry   name: 'node',
+13 silly mapToRegistry   rawSpec: '',
+13 silly mapToRegistry   spec: 'latest',
+13 silly mapToRegistry   type: 'tag' }
+14 silly mapToRegistry uri https://registry.npmjs.org/node
+15 verbose request uri https://registry.npmjs.org/node
+16 verbose request no auth needed
+17 info attempt registry request try #1 at 9:57:11 AM
+18 verbose request id 41e002575fe6ef5b
+19 verbose etag W/"59cd741e-4e34a"
+20 verbose lastModified Thu, 28 Sep 2017 22:13:50 GMT
+21 http request GET https://registry.npmjs.org/node
+22 http 304 https://registry.npmjs.org/node
+23 verbose headers { date: 'Tue, 17 Oct 2017 15:57:11 GMT',
+23 verbose headers   via: '1.1 varnish',
+23 verbose headers   'cache-control': 'max-age=300',
+23 verbose headers   etag: 'W/"59cd741e-4e34a"',
+23 verbose headers   age: '200',
+23 verbose headers   connection: 'keep-alive',
+23 verbose headers   'x-served-by': 'cache-den6021-DEN',
+23 verbose headers   'x-cache': 'HIT',
+23 verbose headers   'x-cache-hits': '1',
+23 verbose headers   'x-timer': 'S1508255832.607970,VS0,VE8',
+23 verbose headers   vary: 'Accept-Encoding, Accept' }
+24 silly get cb [ 304,
+24 silly get   { date: 'Tue, 17 Oct 2017 15:57:11 GMT',
+24 silly get     via: '1.1 varnish',
+24 silly get     'cache-control': 'max-age=300',
+24 silly get     etag: 'W/"59cd741e-4e34a"',
+24 silly get     age: '200',
+24 silly get     connection: 'keep-alive',
+24 silly get     'x-served-by': 'cache-den6021-DEN',
+24 silly get     'x-cache': 'HIT',
+24 silly get     'x-cache-hits': '1',
+24 silly get     'x-timer': 'S1508255832.607970,VS0,VE8',
+24 silly get     vary: 'Accept-Encoding, Accept' } ]
+25 verbose etag https://registry.npmjs.org/node from cache
+26 verbose get saving node to /Users/nonniemartin/.npm/registry.npmjs.org/node/.cache.json
+27 verbose correctMkdir /Users/nonniemartin/.npm correctMkdir not in flight; initializing
+28 silly install normalizeTree
+29 silly loadCurrentTree Finishing
+30 silly loadIdealTree Starting
+31 silly install loadIdealTree
+32 silly cloneCurrentTree Starting
+33 silly install cloneCurrentTreeToIdealTree
+34 silly cloneCurrentTree Finishing
+35 silly loadShrinkwrap Starting
+36 silly install loadShrinkwrap
+37 silly loadShrinkwrap Finishing
+38 silly loadAllDepsIntoIdealTree Starting
+39 silly install loadAllDepsIntoIdealTree
+40 silly resolveWithNewModule node@8.3.0 checking installable status
+41 silly cache add args [ 'node', null ]
+42 verbose cache add spec node
+43 silly cache add parsed spec Result {
+43 silly cache add   raw: 'node',
+43 silly cache add   scope: null,
+43 silly cache add   escapedName: 'node',
+43 silly cache add   name: 'node',
+43 silly cache add   rawSpec: '',
+43 silly cache add   spec: 'latest',
+43 silly cache add   type: 'tag' }
+44 silly addNamed node@latest
+45 verbose addNamed "latest" is being treated as a dist-tag for node
+46 info addNameTag [ 'node', 'latest' ]
+47 silly mapToRegistry name node
+48 silly mapToRegistry using default registry
+49 silly mapToRegistry registry https://registry.npmjs.org/
+50 silly mapToRegistry data Result {
+50 silly mapToRegistry   raw: 'node',
+50 silly mapToRegistry   scope: null,
+50 silly mapToRegistry   escapedName: 'node',
+50 silly mapToRegistry   name: 'node',
+50 silly mapToRegistry   rawSpec: '',
+50 silly mapToRegistry   spec: 'latest',
+50 silly mapToRegistry   type: 'tag' }
+51 silly mapToRegistry uri https://registry.npmjs.org/node
+52 verbose addNameTag registry:https://registry.npmjs.org/node not in flight; fetching
+53 verbose get https://registry.npmjs.org/node not expired, no request
+54 silly addNameTag next cb for node with tag latest
+55 silly addNamed node@8.3.0
+56 verbose addNamed "8.3.0" is a plain semver version for node
+57 silly cache afterAdd node@8.3.0
+58 verbose afterAdd /Users/nonniemartin/.npm/node/8.3.0/package/package.json not in flight; writing
+59 verbose correctMkdir /Users/nonniemartin/.npm correctMkdir not in flight; initializing
+60 verbose afterAdd /Users/nonniemartin/.npm/node/8.3.0/package/package.json written
+61 silly fetchNamedPackageData node-bin-setup
+62 silly mapToRegistry name node-bin-setup
+63 silly mapToRegistry using default registry
+64 silly mapToRegistry registry https://registry.npmjs.org/
+65 silly mapToRegistry data Result {
+65 silly mapToRegistry   raw: 'node-bin-setup',
+65 silly mapToRegistry   scope: null,
+65 silly mapToRegistry   escapedName: 'node-bin-setup',
+65 silly mapToRegistry   name: 'node-bin-setup',
+65 silly mapToRegistry   rawSpec: '',
+65 silly mapToRegistry   spec: 'latest',
+65 silly mapToRegistry   type: 'tag' }
+66 silly mapToRegistry uri https://registry.npmjs.org/node-bin-setup
+67 verbose request uri https://registry.npmjs.org/node-bin-setup
+68 verbose request no auth needed
+69 info attempt registry request try #1 at 9:57:11 AM
+70 verbose etag W/"5976bbea-1511"
+71 verbose lastModified Tue, 25 Jul 2017 03:32:58 GMT
+72 http request GET https://registry.npmjs.org/node-bin-setup
+73 http 304 https://registry.npmjs.org/node-bin-setup
+74 verbose headers { date: 'Tue, 17 Oct 2017 15:57:11 GMT',
+74 verbose headers   via: '1.1 varnish',
+74 verbose headers   'cache-control': 'max-age=300',
+74 verbose headers   etag: 'W/"5976bbea-1511"',
+74 verbose headers   age: '199',
+74 verbose headers   connection: 'keep-alive',
+74 verbose headers   'x-served-by': 'cache-den6021-DEN',
+74 verbose headers   'x-cache': 'HIT',
+74 verbose headers   'x-cache-hits': '1',
+74 verbose headers   'x-timer': 'S1508255832.743734,VS0,VE1',
+74 verbose headers   vary: 'Accept-Encoding, Accept' }
+75 silly get cb [ 304,
+75 silly get   { date: 'Tue, 17 Oct 2017 15:57:11 GMT',
+75 silly get     via: '1.1 varnish',
+75 silly get     'cache-control': 'max-age=300',
+75 silly get     etag: 'W/"5976bbea-1511"',
+75 silly get     age: '199',
+75 silly get     connection: 'keep-alive',
+75 silly get     'x-served-by': 'cache-den6021-DEN',
+75 silly get     'x-cache': 'HIT',
+75 silly get     'x-cache-hits': '1',
+75 silly get     'x-timer': 'S1508255832.743734,VS0,VE1',
+75 silly get     vary: 'Accept-Encoding, Accept' } ]
+76 verbose etag https://registry.npmjs.org/node-bin-setup from cache
+77 verbose get saving node-bin-setup to /Users/nonniemartin/.npm/registry.npmjs.org/node-bin-setup/.cache.json
+78 verbose correctMkdir /Users/nonniemartin/.npm correctMkdir not in flight; initializing
+79 silly resolveWithNewModule node-bin-setup@1.0.6 checking installable status
+80 silly cache add args [ 'node-bin-setup@^1.0.0', null ]
+81 verbose cache add spec node-bin-setup@^1.0.0
+82 silly cache add parsed spec Result {
+82 silly cache add   raw: 'node-bin-setup@^1.0.0',
+82 silly cache add   scope: null,
+82 silly cache add   escapedName: 'node-bin-setup',
+82 silly cache add   name: 'node-bin-setup',
+82 silly cache add   rawSpec: '^1.0.0',
+82 silly cache add   spec: '>=1.0.0 <2.0.0',
+82 silly cache add   type: 'range' }
+83 silly addNamed node-bin-setup@>=1.0.0 <2.0.0
+84 verbose addNamed ">=1.0.0 <2.0.0" is a valid semver range for node-bin-setup
+85 silly addNameRange { name: 'node-bin-setup',
+85 silly addNameRange   range: '>=1.0.0 <2.0.0',
+85 silly addNameRange   hasData: false }
+86 silly mapToRegistry name node-bin-setup
+87 silly mapToRegistry using default registry
+88 silly mapToRegistry registry https://registry.npmjs.org/
+89 silly mapToRegistry data Result {
+89 silly mapToRegistry   raw: 'node-bin-setup',
+89 silly mapToRegistry   scope: null,
+89 silly mapToRegistry   escapedName: 'node-bin-setup',
+89 silly mapToRegistry   name: 'node-bin-setup',
+89 silly mapToRegistry   rawSpec: '',
+89 silly mapToRegistry   spec: 'latest',
+89 silly mapToRegistry   type: 'tag' }
+90 silly mapToRegistry uri https://registry.npmjs.org/node-bin-setup
+91 verbose addNameRange registry:https://registry.npmjs.org/node-bin-setup not in flight; fetching
+92 verbose get https://registry.npmjs.org/node-bin-setup not expired, no request
+93 silly addNameRange number 2 { name: 'node-bin-setup',
+93 silly addNameRange   range: '>=1.0.0 <2.0.0',
+93 silly addNameRange   hasData: true }
+94 silly addNameRange versions [ 'node-bin-setup',
+94 silly addNameRange   [ '1.0.0', '1.0.1', '1.0.2', '1.0.3', '1.0.4', '1.0.6' ] ]
+95 silly addNamed node-bin-setup@1.0.6
+96 verbose addNamed "1.0.6" is a plain semver version for node-bin-setup
+97 silly cache afterAdd node-bin-setup@1.0.6
+98 verbose afterAdd /Users/nonniemartin/.npm/node-bin-setup/1.0.6/package/package.json not in flight; writing
+99 verbose correctMkdir /Users/nonniemartin/.npm correctMkdir not in flight; initializing
+100 verbose afterAdd /Users/nonniemartin/.npm/node-bin-setup/1.0.6/package/package.json written
+101 silly loadAllDepsIntoIdealTree Finishing
+102 silly loadIdealTree Finishing
+103 silly currentTree nonniemartin
+103 silly currentTree ├── assertion-error@1.0.2
+103 silly currentTree ├── axios@0.16.2
+103 silly currentTree ├── balanced-match@1.0.0
+103 silly currentTree ├── brace-expansion@1.1.8
+103 silly currentTree ├── browser-stdout@1.3.0
+103 silly currentTree ├── chai@4.1.2
+103 silly currentTree ├── check-error@1.0.2
+103 silly currentTree ├── commander@2.11.0
+103 silly currentTree ├── concat-map@0.0.1
+103 silly currentTree ├── debug@2.6.9
+103 silly currentTree ├── deep-eql@3.0.1
+103 silly currentTree ├── diff@3.3.1
+103 silly currentTree ├── escape-string-regexp@1.0.5
+103 silly currentTree ├── follow-redirects@1.2.4
+103 silly currentTree ├── fs.realpath@1.0.0
+103 silly currentTree ├── get-func-name@2.0.0
+103 silly currentTree ├── glob@7.1.2
+103 silly currentTree ├── growl@1.10.3
+103 silly currentTree ├── has-flag@2.0.0
+103 silly currentTree ├── he@1.1.1
+103 silly currentTree ├── inflight@1.0.6
+103 silly currentTree ├── inherits@2.0.3
+103 silly currentTree ├── is-buffer@1.1.5
+103 silly currentTree ├── minimatch@3.0.4
+103 silly currentTree ├── minimist@0.0.8
+103 silly currentTree ├── mkdirp@0.5.1
+103 silly currentTree ├─┬ mocha@4.0.1
+103 silly currentTree │ └── debug@3.1.0
+103 silly currentTree ├── ms@2.0.0
+103 silly currentTree ├── once@1.4.0
+103 silly currentTree ├── path-is-absolute@1.0.1
+103 silly currentTree ├── pathval@1.1.0
+103 silly currentTree ├── supports-color@4.4.0
+103 silly currentTree ├── type-detect@4.0.3
+103 silly currentTree └── wrappy@1.0.2
+104 silly idealTree nonniemartin
+104 silly idealTree ├── assertion-error@1.0.2
+104 silly idealTree ├── axios@0.16.2
+104 silly idealTree ├── balanced-match@1.0.0
+104 silly idealTree ├── brace-expansion@1.1.8
+104 silly idealTree ├── browser-stdout@1.3.0
+104 silly idealTree ├── chai@4.1.2
+104 silly idealTree ├── check-error@1.0.2
+104 silly idealTree ├── commander@2.11.0
+104 silly idealTree ├── concat-map@0.0.1
+104 silly idealTree ├── debug@2.6.9
+104 silly idealTree ├── deep-eql@3.0.1
+104 silly idealTree ├── diff@3.3.1
+104 silly idealTree ├── escape-string-regexp@1.0.5
+104 silly idealTree ├── follow-redirects@1.2.4
+104 silly idealTree ├── fs.realpath@1.0.0
+104 silly idealTree ├── get-func-name@2.0.0
+104 silly idealTree ├── glob@7.1.2
+104 silly idealTree ├── growl@1.10.3
+104 silly idealTree ├── has-flag@2.0.0
+104 silly idealTree ├── he@1.1.1
+104 silly idealTree ├── inflight@1.0.6
+104 silly idealTree ├── inherits@2.0.3
+104 silly idealTree ├── is-buffer@1.1.5
+104 silly idealTree ├── minimatch@3.0.4
+104 silly idealTree ├── minimist@0.0.8
+104 silly idealTree ├── mkdirp@0.5.1
+104 silly idealTree ├─┬ mocha@4.0.1
+104 silly idealTree │ └── debug@3.1.0
+104 silly idealTree ├── ms@2.0.0
+104 silly idealTree ├── node-bin-setup@1.0.6
+104 silly idealTree ├── node@8.3.0
+104 silly idealTree ├── once@1.4.0
+104 silly idealTree ├── path-is-absolute@1.0.1
+104 silly idealTree ├── pathval@1.1.0
+104 silly idealTree ├── supports-color@4.4.0
+104 silly idealTree ├── type-detect@4.0.3
+104 silly idealTree └── wrappy@1.0.2
+105 silly generateActionsToTake Starting
+106 silly install generateActionsToTake
+107 silly generateActionsToTake Finishing
+108 silly diffTrees action count 2
+109 silly diffTrees add node-bin-setup@1.0.6
+110 silly diffTrees add node@8.3.0
+111 silly decomposeActions action count 16
+112 silly decomposeActions fetch node-bin-setup@1.0.6
+113 silly decomposeActions extract node-bin-setup@1.0.6
+114 silly decomposeActions test node-bin-setup@1.0.6
+115 silly decomposeActions preinstall node-bin-setup@1.0.6
+116 silly decomposeActions build node-bin-setup@1.0.6
+117 silly decomposeActions install node-bin-setup@1.0.6
+118 silly decomposeActions postinstall node-bin-setup@1.0.6
+119 silly decomposeActions finalize node-bin-setup@1.0.6
+120 silly decomposeActions fetch node@8.3.0
+121 silly decomposeActions extract node@8.3.0
+122 silly decomposeActions test node@8.3.0
+123 silly decomposeActions preinstall node@8.3.0
+124 silly decomposeActions build node@8.3.0
+125 silly decomposeActions install node@8.3.0
+126 silly decomposeActions postinstall node@8.3.0
+127 silly decomposeActions finalize node@8.3.0
+128 silly runTopLevelLifecycles Starting
+129 silly executeActions Starting
+130 silly install executeActions
+131 silly doSerial global-install 0
+132 silly doParallel fetch 2
+133 verbose correctMkdir /Users/nonniemartin/.npm/_locks correctMkdir not in flight; initializing
+134 verbose lock using /Users/nonniemartin/.npm/_locks/staging-b5c8ceb38ad8c9b3.lock for /Users/nonniemartin/node_modules/.staging
+135 silly doParallel extract 2
+136 silly extract node-bin-setup@1.0.6
+137 silly extract node@8.3.0
+138 verbose unbuild node_modules/.staging/node-bin-setup-08886d97
+139 verbose unbuild node_modules/.staging/node-9340d8e8
+140 silly gentlyRm /Users/nonniemartin/node_modules/.staging/node-bin-setup-08886d97 is being purged from base /Users/nonniemartin
+141 verbose gentlyRm don't care about contents; nuking /Users/nonniemartin/node_modules/.staging/node-bin-setup-08886d97
+142 verbose tar unpack /Users/nonniemartin/.npm/node-bin-setup/1.0.6/package.tgz
+143 verbose tar unpacking to /Users/nonniemartin/node_modules/.staging/node-bin-setup-08886d97
+144 silly gentlyRm /Users/nonniemartin/node_modules/.staging/node-bin-setup-08886d97 is being purged
+145 verbose gentlyRm don't care about contents; nuking /Users/nonniemartin/node_modules/.staging/node-bin-setup-08886d97
+146 silly gentlyRm /Users/nonniemartin/node_modules/.staging/node-9340d8e8 is being purged from base /Users/nonniemartin
+147 verbose gentlyRm don't care about contents; nuking /Users/nonniemartin/node_modules/.staging/node-9340d8e8
+148 silly gunzTarPerm modes [ '755', '644' ]
+149 verbose tar unpack /Users/nonniemartin/.npm/node/8.3.0/package.tgz
+150 verbose tar unpacking to /Users/nonniemartin/node_modules/.staging/node-9340d8e8
+151 silly gentlyRm /Users/nonniemartin/node_modules/.staging/node-9340d8e8 is being purged
+152 verbose gentlyRm don't care about contents; nuking /Users/nonniemartin/node_modules/.staging/node-9340d8e8
+153 silly gunzTarPerm modes [ '755', '644' ]
+154 silly gunzTarPerm extractEntry package.json
+155 silly gunzTarPerm extractEntry package.json
+156 silly gunzTarPerm extractEntry index.js
+157 silly gunzTarPerm extractEntry README.md
+158 silly gunzTarPerm extractEntry installArchSpecificPackage.js
+159 silly gentlyRm /Users/nonniemartin/node_modules/.staging/node-bin-setup-08886d97/node_modules is being purged
+160 verbose gentlyRm don't care about contents; nuking /Users/nonniemartin/node_modules/.staging/node-bin-setup-08886d97/node_modules
+161 silly gentlyRm /Users/nonniemartin/node_modules/.staging/node-9340d8e8/node_modules is being purged
+162 verbose gentlyRm don't care about contents; nuking /Users/nonniemartin/node_modules/.staging/node-9340d8e8/node_modules
+163 silly doParallel preinstall 2
+164 silly preinstall node-bin-setup@1.0.6 /Users/nonniemartin/node_modules/.staging/node-bin-setup-08886d97
+165 info lifecycle node-bin-setup@1.0.6~preinstall: node-bin-setup@1.0.6
+166 silly preinstall node@8.3.0 /Users/nonniemartin/node_modules/.staging/node-9340d8e8
+167 info lifecycle node@8.3.0~preinstall: node@8.3.0
+168 silly lifecycle node-bin-setup@1.0.6~preinstall: no script for preinstall, continuing
+169 verbose lifecycle node@8.3.0~preinstall: unsafe-perm in lifecycle true
+170 verbose lifecycle node@8.3.0~preinstall: PATH: /Users/nonniemartin/.nvm/versions/node/v6.11.3/lib/node_modules/npm/bin/node-gyp-bin:/Users/nonniemartin/node_modules/.staging/node-9340d8e8/node_modules/.bin:/Users/nonniemartin/node_modules/.bin:/Users/nonniemartin/.nvm/versions/node/v6.11.3/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin
+171 verbose lifecycle node@8.3.0~preinstall: CWD: /Users/nonniemartin/node_modules/.staging/node-9340d8e8
+172 silly lifecycle node@8.3.0~preinstall: Args: [ '-c', 'node installArchSpecificPackage' ]
+173 silly lifecycle node@8.3.0~preinstall: Returned: code: 1  signal: null
+174 info lifecycle node@8.3.0~preinstall: Failed to exec preinstall script
+175 verbose unlock done using /Users/nonniemartin/.npm/_locks/staging-b5c8ceb38ad8c9b3.lock for /Users/nonniemartin/node_modules/.staging
+176 silly rollbackFailedOptional Starting
+177 silly rollbackFailedOptional Finishing
+178 silly runTopLevelLifecycles Finishing
+179 silly install printInstalled
+180 warn enoent ENOENT: no such file or directory, open '/Users/nonniemartin/package.json'
+181 verbose enoent ENOENT: no such file or directory, open '/Users/nonniemartin/package.json'
+181 verbose enoent This is most likely not a problem with npm itself
+181 verbose enoent and is related to npm not being able to find a file.
+182 warn nonniemartin No description
+183 verbose If you need help, you may report this error at:
+183 verbose     <https://github.com/npm/npm/issues>
+184 warn nonniemartin No repository field.
+185 verbose If you need help, you may report this error at:
+185 verbose     <https://github.com/npm/npm/issues>
+186 warn nonniemartin No README data
+187 verbose If you need help, you may report this error at:
+187 verbose     <https://github.com/npm/npm/issues>
+188 warn nonniemartin No license field.
+189 verbose If you need help, you may report this error at:
+189 verbose     <https://github.com/npm/npm/issues>
+190 verbose stack Error: node@8.3.0 preinstall: `node installArchSpecificPackage`
+190 verbose stack Exit status 1
+190 verbose stack     at EventEmitter.<anonymous> (/Users/nonniemartin/.nvm/versions/node/v6.11.3/lib/node_modules/npm/lib/utils/lifecycle.js:255:16)
+190 verbose stack     at emitTwo (events.js:106:13)
+190 verbose stack     at EventEmitter.emit (events.js:191:7)
+190 verbose stack     at ChildProcess.<anonymous> (/Users/nonniemartin/.nvm/versions/node/v6.11.3/lib/node_modules/npm/lib/utils/spawn.js:40:14)
+190 verbose stack     at emitTwo (events.js:106:13)
+190 verbose stack     at ChildProcess.emit (events.js:191:7)
+190 verbose stack     at maybeClose (internal/child_process.js:920:16)
+190 verbose stack     at Process.ChildProcess._handle.onexit (internal/child_process.js:230:5)
+191 verbose pkgid node@8.3.0
+192 verbose cwd /Users/nonniemartin/Desktop/dev/assignments/excercises/warmups/Test
+193 error Darwin 16.7.0
+194 error argv "/Users/nonniemartin/.nvm/versions/node/v6.11.3/bin/node" "/Users/nonniemartin/.nvm/versions/node/v6.11.3/bin/npm" "install" "node"
+195 error node v6.11.3
+196 error npm  v3.10.10
+197 error code ELIFECYCLE
+198 error node@8.3.0 preinstall: `node installArchSpecificPackage`
+198 error Exit status 1
+199 error Failed at the node@8.3.0 preinstall script 'node installArchSpecificPackage'.
+199 error Make sure you have the latest version of node.js and npm installed.
+199 error If you do, this is most likely a problem with the node package,
+199 error not with npm itself.
+199 error Tell the author that this fails on your system:
+199 error     node installArchSpecificPackage
+199 error You can get information on how to open an issue for this project with:
+199 error     npm bugs node
+199 error Or if that isn't available, you can get their info via:
+199 error     npm owner ls node
+199 error There is likely additional logging output above.
+200 verbose exit [ 1, true ]

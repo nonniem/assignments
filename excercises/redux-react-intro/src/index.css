@@ -1,0 +1,15 @@
+#root{
+  height: 100vh;
+  background: black;
+  border-radius: 40%;
+  border: 10px yellow solid
+}
+
+.button{
+  border-radius: 50%;
+  border: white 3px solid;
+  height: 100px;
+  width: 100px;
+  background: magenta;
+  font-size: 30px;
+}
