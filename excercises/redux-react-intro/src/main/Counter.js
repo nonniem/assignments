@@ -5,42 +5,43 @@ import {addOne, subOne, multiply, divide, zero} from "../redux/actions/index.js"
 
 function Counter(props){
     console.log(props)
-  const style={
-      width: "60%",
+    const style={
+        width: "60%",
+        margin: "auto",
+        display: "flex",
+        justifyContent: "space-between",
+        position: "relative",
+        top: "100%",
+        transform: "translateY(100%)"
+    }
+
+    const display = {
+      width: "40%",
       margin: "auto",
       display: "flex",
       justifyContent: "space-between",
       position: "relative",
-      top: "100%",
-      transform: "translateY(100%)"
-  }
+      transform: "translateY(200%)",
+      fontSize: "30px",
+      textDecoration: "underline dotted limegreen",
+      color: "white"
+    }
 
-  const display = {
-    width: "40%",
-    margin: "auto",
-    display: "flex",
-    justifyContent: "space-between",
-    position: "relative",
-    transform: "translateY(200%)",
-    fontSize: "30px",
-    textDecoration: "underline dotted limegreen",
-    color: "white"
-  }
+    const reset = {
+      background: "blue",
+      fontSize: "40px",
+      color: "yellow",
+      margin: "auto",
+      display: "flex",
+      justifyContent: "space-between",
+      position: "relative",
+      transform: "translateY(60%)"
+    }
 
-  const reset = {
-    background: "blue",
-    fontSize: "40px",
-    color: "yellow",
-    margin: "auto",
-    display: "flex",
-    justifyContent: "space-between",
-    position: "relative",
-    transform: "translateY(60%)"
-  }
-
-  const signature = {
-    float: "right"
-  }
+    const signature = {
+      float: "right"
+    }
+    
   return(
 <div>
     <div >

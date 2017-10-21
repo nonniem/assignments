@@ -45,8 +45,8 @@ const reducer = function(prevState = state, action){
           counter: 0
         }
       case "REMOVE_FIRST_CONTACT":
-      const gameChanger = [...prevState.contactList]
-      gameChanger.shift();
+        const gameChanger = [...prevState.contactList]
+        gameChanger.shift();
         return{
           ...prevState,
           contactList: gameChanger
