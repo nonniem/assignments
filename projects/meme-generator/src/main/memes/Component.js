@@ -1,6 +1,7 @@
 import React from "react";
 
 function MemesComponent(props){
+  console.log(props)
   const style = {
         display: "flex",
         flexWrap: "wrap",

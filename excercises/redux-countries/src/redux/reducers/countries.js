@@ -7,9 +7,7 @@ let newCountries = [...prevCountries];
       case "DELETE_COUNTRY":
           newCountries.splice(action.index, 1);
           return newCountries;
-
         default:
             return prevCountries
     }
 }
-  

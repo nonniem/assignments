@@ -3,11 +3,6 @@ import CountriesComponent from "./Component";
 import Country from "./Country";
 import {connect} from "react-redux";
 
-// /get list of coutrnies from redux this.state
-//write a function that maps through the list and generates a new country component
-//render the list component and pass maping function down, where it will be called
-//add delete function to each country component
-
 class CountriesContainer extends React.Component{
     constructor(){
       super();
@@ -21,7 +16,6 @@ class CountriesContainer extends React.Component{
                             country={country}
                             index = {index}/>
         })
-
     }
 
     render(){

@@ -1,6 +1,6 @@
 import React from "react";
 import FormContainer from "./form/Container";
-import MemeContainer from "./memes/Meme";
+import MemeContainer from "./memes/Container";
 
 function App(props){
     return(

@@ -1,5 +1,5 @@
 import React from "react";
-import FormComponent from "./Component"
+import FormComponent from "./Component";
 import {connect} from "react-redux";
 import {memes} from "../../redux/actions/";
 
@@ -9,6 +9,7 @@ class FormContainer extends React.Component{
       this.state = {
         inputs: {
           name: "",
+          bottom: "",
           imgURL: ""
         }
       }
@@ -34,11 +35,11 @@ class FormContainer extends React.Component{
       this.setState({
         inputs: {
           name: "",
+          bottom: "",
           imgURL: ""
         }
       });
     }
-
 
     render(){
       return(
