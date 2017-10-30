@@ -5,8 +5,8 @@ const cors = require("cors");
 
 app.use(cors());
 app.use(bodyParser.json());
-app.use("Bounty", require("./routes/Bounty"));
+app.use("/bounty", require("./routes/Bounty"));
 
-app.listen(1500, () => {
-    console.log("port 1500");
+app.listen(7500, () => {
+    console.log("port 7500");
 });

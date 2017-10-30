@@ -1,27 +1,28 @@
 import React from "react";
 import EditComponent from "./Component";
 import {connect} from "react-redux";
-import {todos} from "../../redux/actions/";
+import {todos} from "../../../../redux/actions/";
 
 class EditContainer extends React.Component{
-  constructor(){
+  constructor(props){
     super();
     this.state = {
-      inputs: {
+      edit: {
           title: "",
           description: ""
       }
     }
     this.handleSubmit = this.handleSubmit.bind(this);
-    this.handleEdit = this.handleChange.bind(this);
+    this.handleChange = this.handleChange.bind(this);
   }
 
-  handleEdit(e){
+  handleChange(e){
+      console.log(e.target.value)
       e.persist();
       this.setState((prevState)=>{
         return {
-            inputs: {
-              ...prevState.inputs,
+            edit: {
+              ...prevState.edit,
               [e.target.name]: e.target.value
             }
         }
@@ -30,9 +31,9 @@ class EditContainer extends React.Component{
 
   handleSubmit(e){
     e.preventDefault();
-    this.props.editTodo(this.state.inputs);
+    this.props.editTodo(this.props.todoId, this.state.edit);
     this.setState({
-      inputs: {
+      edit: {
         title: "",
         description: ""
       }
@@ -43,8 +44,8 @@ class EditContainer extends React.Component{
       return(
                 <EditComponent
                   handleSubmit={this.handleSubmit}
-                  handleEdit={this.handleEdit}
-                  inputs={this.state.inputs}
+                  handleChange={this.handleChange}
+                  edit={this.state.edit}
                                             />
       )
   }

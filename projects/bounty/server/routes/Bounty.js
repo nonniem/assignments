@@ -1,43 +1,43 @@
 const express = require("express");
-const Bounty = express.Router();
+const bounty = express.Router();
 const uuid = require("uuid/v4");
 
-let data = [];
+let array = [{title: "spaghetti"}];
 
-Bounty.get("/", (req, res) => {
-  res.send(data);
+bounty.get("/", (req, res) => {
+  res.send(array);
 })
 
-Bounty.post("/", (req, res) => {
+bounty.post("/", (req, res) => {
   req.body._id = uuid();
-  data.push(req.body);
+  array.push(req.body);
   res.send(req.body);
 })
 
-Bounty.delete("/:id/", (req, res) => {
-  name = data.filter((item) => {
-      return item._id !== req.params.id
+bounty.delete("/:id/", (req, res) => {
+  name = array.filter((doc) => {
+      return doc._id !== req.params.id
   })
   res.send({message: "no more bounty"})
 })
 
-Bounty.put("/:id", (req, res) => {
-  let updateBounty = req.body;
-  updateBounty = data.map((item) => {
-    if(item._id === req.params.id){
-      return updateBounty = Object.assign(Bounty, newBounty);
+bounty.put("/:id", (req, res) => {
+  let newObj = req.body;
+  array = array.map((doc) => {
+    if(doc._id === req.params.id){
+      return newObj = Object.assign(doc, newObj);
     } else {
-        return Bounty
+        return doc
     }
   })
-  res.send(newBounty)
+  res.send(newObj)
 })
 
-Bounty.get("/:id", (req, res) => {
+bounty.get("/:id", (req, res) => {
   let bount = Bounty.find((bount) => {
       return bount._id === req.params.id
   })
 })
 
 
-module.exports = Bounty;
+module.exports = bounty;

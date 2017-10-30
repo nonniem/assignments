@@ -2,35 +2,35 @@ const express = require("express");
 const northBounty = express.Router();
 const uuid = require("uuid/v4");
 
-let data = [];
+let array = [];
 
 northBounty.get("/", (req, res) => {
-  res.send(data);
+  res.send(array);
 })
 
 northBounty.post("/", (req, res) => {
   req.body._id = uuid();
-  data.push(req.body);
+  array.push(req.body);
   res.send(req.body);
 })
 
 northBounty.delete("/:id/", (req, res) => {
-  name = data.filter((item) => {
-      return item._id !== req.params.id
+  name = array.filter((doc) => {
+      return doc._id !== req.params.id
   })
   res.send({message: "no more bounty"})
 })
 
 northBounty.put("/:id", (req, res) => {
-  let updateBounty = req.body;
-  updateBounty = data.map((item) => {
-    if(item._id === req.params.id){
-      return updateBounty = Object.assign(northBounty, newBounty);
+  let newObj = req.body;
+  array = array.map((doc) => {
+    if(doc._id === req.params.id){
+      return newObj = Object.assign(doc, newObj);
     } else {
-        return northBounty
+        return doc
     }
   })
-  res.send(newBounty)
+  res.send(newObj);
 })
 
 northBounty.get("/:id", (req, res) => {

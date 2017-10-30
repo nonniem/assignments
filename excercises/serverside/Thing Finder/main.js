@@ -1,8 +1,8 @@
 const express = require("express");
 const app = express();
 const bodyParser = require("body-parser");
-
-// let query = {color: "red"}
+const port = process.env.PORT || 1111;
+const morgan = require("morgan");
 
 let database = [
   {fruit: "banana", color: "yellow"},
@@ -22,6 +22,7 @@ function filterDatabase(query, database){
     })}
 
 app.use(bodyParser.json());
+app.use(morgan("dev"));
 
 app.get("/fruits", (req, res) => {
     console.log(req.query);

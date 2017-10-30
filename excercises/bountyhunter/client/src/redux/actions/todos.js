@@ -24,8 +24,7 @@ export function addTodo(todo){
         todos: response.data
       })
     })
-  }
-}
+  }}
 
 export function deleteTodo(id){
   return (dispatch)=>{
@@ -38,15 +37,14 @@ export function deleteTodo(id){
       .catch((err)=>{
         console.log(err)
     })
-  }
-}
+  }}
 
 export function editTodo(id, editedTodo){
   return (dispatch)=>{
     axios.put(todosUrl + id, editedTodo).then(response=>{
       dispatch({
         type: "EDIT_TODO",
-        editedTodo: response.data,
+        editTodo: response.data,
         id
       })
     })
