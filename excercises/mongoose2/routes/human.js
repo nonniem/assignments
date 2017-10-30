@@ -3,7 +3,7 @@ const humanRoutes = express.Router();
 const Human = require("../models/human");
 
 humanRoutes.get("/", (req, res) => {
-        Human.find((err, whoop)=>{
+        Human.find(req.query, (err, whoop)=>{
             if (err) return res.status(500).send(err);
             return res.send(whoop);
         });

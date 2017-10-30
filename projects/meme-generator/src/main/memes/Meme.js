@@ -5,30 +5,41 @@ import {Button} from "react-bootstrap";
 
 function Meme(props){
 
-  const style = {
+  const meme = {
     backgroundImage: `url(${props.meme.imgURL})`,
-    backgroundSize: "cover",
-    width: "300px",
-    height: "220px",
-    border: "solid black 2px",
-    margin: "20px"
+    margin: "20px",
+    width: "350px",
+    height: "400px",
+    objectFit: "contain",
+    backgroundRepeat: "no-repeat",
+    backgroundPosition: "center",
+    textAlign: "center",
+    position: "relative",
+    border: "solid black 3px"
 }
 
-const userInput = {
-      textAlign: "center"
+const topComment = {
+     top: "0px"
+}
+
+const bottomComment = {
+      bottom: "0px"
 }
 
 const deleteButton = {
-
+    color: "white",
+    background: "black"
 }
 
+
+
 return(
-  <div style={style}>
-    <div>
-          <h4 style={userInput}>{props.meme.name}</h4>
-          <h4 style={userInput}>{props.meme.bottom}</h4>
-    </div>
-      <Button style={deleteButton} onClick={()=>{props.deleteMeme(props.index)}}>Dlete Meme</Button>
+  <div>
+     <div style={meme}>
+        <h4 style={topComment}>{props.meme.name}</h4>
+        <h4 style={bottomComment}>{props.meme.bottom}</h4>
+     </div>
+     <Button style={deleteButton} onClick={()=>{props.deleteMeme(props.index)}}>Dlete Meme</Button>
   </div>
 )
 }

@@ -5,7 +5,7 @@ function MemesComponent(props){
   const style = {
         display: "flex",
         flexWrap: "wrap",
-        alignSelf: "center"
+        // alignSelf: "center"
 }
     return(
         <div style={style}>

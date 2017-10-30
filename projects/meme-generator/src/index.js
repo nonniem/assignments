@@ -4,7 +4,7 @@ import App from "./main/App.js";
 import {Provider} from "react-redux";
 import{createStore} from "redux";
 import reducer from "./redux/reducers/";
-
+import "./style.css";
 const store = createStore(reducer);
 
   store.subscribe(()=>{
