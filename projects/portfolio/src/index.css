@@ -1,0 +1,45 @@
+.backgrownd{
+    border: black 2px solid
+}
+
+.contained{
+    width: 100%;
+    height: 500px;
+}
+
+.backgrownd{
+    height: 100%;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+    background-image: url("http://labs4.kentooz.com/wpwallpaper/wp-content/uploads/2013/04/Village-Wallpaper-198.jpg");
+}
+.nav {
+    margin:auto;
+    display: flex;
+    justify-content: space-between;
+    height: 50px;
+    background: black;
+}
+
+.footer{
+    height: 40px;
+    background: yellow;
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    left: 0;
+}
+
+.topImage {
+    height: 100px;
+    width: 100px;
+    background: purple
+}
+
+.detailContainer{
+    height: 600px;
+    width: 100%;
+    background-color: beige;
+    border: black 1px solid
+}

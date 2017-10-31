@@ -254,8 +254,8 @@ class ServicesContainer extends React.Component{
     return(
             <ServicesComponent genLinks={this.genLinks}
                                searchById={this.searchById}/>
-)
+     )
   }
 }
 
-export default ServicesContainer
+export default ServicesContainer;

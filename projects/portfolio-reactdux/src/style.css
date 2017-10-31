@@ -1,5 +1,5 @@
 #root{
   height: 100vh;
-  background: magenta;
-  
+  background: black;
+  border: 2px white solid;
 }
