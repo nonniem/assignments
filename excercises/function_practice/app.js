@@ -1,28 +1,28 @@
-var lyrics = ["This", "hit", "that", "ice", "cold",  
-              "Michelle", "Pfeiffer", "that", "white", 
-              "gold", "This", "one", "for", "them", 
-              "hood", "girls", "Them", "good", "girls", 
-              "straight", "masterpieces", "Stylin'", 
-              "whilen'", "livin'", "it", "up", "in", 
-              "the", "city", "Got", "Chucks", "on", 
-              "with", "Saint", "Laurent", "Gotta", "kiss", 
+var lyrics = ["This", "hit", "that", "ice", "cold",
+              "Michelle", "Pfeiffer", "that", "white",
+              "gold", "This", "one", "for", "them",
+              "hood", "girls", "Them", "good", "girls",
+              "straight", "masterpieces", "Stylin'",
+              "whilen'", "livin'", "it", "up", "in",
+              "the", "city", "Got", "Chucks", "on",
+              "with", "Saint", "Laurent", "Gotta", "kiss",
               "myself", "I'm", "so", "pretty"];
- 
+
 
 function print(arr) {
     console.log(arr.reverse().join(" "));
 }
 print(lyrics);
 
-    
+
 function printEveryOther(arr) {
     var everyOtherLyric = [];
-    
+
     for (var i = 0; i < arr.length; i += 2) {
-        everyOtherLyric.push(arr[i]);
+        everyOtherLyric.push(arr[i]);  uyuyyhyhjjhujjjjjjhuuuuuuiujh
     }
     console.log(everyOtherLyric.join(" "));
-}    
+}
 printEveryOther(lyrics);
 
 
@@ -73,8 +73,8 @@ function doubleNums(arr) {
     for (var i = 0; i < arr.length; i++){
         doubles.push(arr[i] * 2);
     }
-    return doubles;       
+    return doubles;
 }
 var result = doubleNums(original);
-console.log(reult);
+console.log(result);
 console.log(original);

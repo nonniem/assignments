@@ -3,7 +3,7 @@ import React from "react";
 function projectLayout(props){
     const id = props.match.params.id;
     return(
-        <div className="detailContainer">
+        <div className="bodyLayout">
             <h4>{props.searchById(id).title}</h4>
             <h4>{props.searchById(id).description}</h4>
             <h4>{props.searchById(id).link}</h4>

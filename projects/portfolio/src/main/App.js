@@ -1,11 +1,8 @@
 import React from "react";
 import Navbar from "./Navbar";
 import Footer from "./Footer";
-import {Switch, Route} from "react-router-dom";
-import Home from "./views/Home";
-import About from "./views/About";
-import Contact from "./views/Contact";
-import ProjectContainer from "./views/projects/Container.js";
+import Body from "./Body";
+
 
 class App extends React.Component{
     render(){
@@ -16,12 +13,7 @@ class App extends React.Component{
                     <Navbar/>
                 </div>
                 <div>
-                    <Switch>
-                        <Route exact path="/" component={Home}/>
-                        <Route path="/projects" component={About}/>
-                        <Route path="/contact" component={Contact}/>
-                        <Route path="/about" component={ProjectContainer}/>
-                    </Switch>
+                    <Body/>
                 </div>
                 <Footer/>
             </div>

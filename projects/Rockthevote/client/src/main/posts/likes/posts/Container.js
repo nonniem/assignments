@@ -1,13 +1,13 @@
 import React from "react";
 import EditPost from "./Component";
 import {connect} from "react-redux";
-import {} from "../../../../redux/actions/";
+import {politics} from "../../../../redux/actions/";
 
 class EditContainer extends React.Component{
     constructor(props){
         super();
         this.state = {
-            posts: {
+            post: {
                 title: "",
                 description: ""
             }
@@ -21,8 +21,8 @@ class EditContainer extends React.Component{
         e.persist;
         this.setState((prevState)=>{
             return {
-                posts: {
-                    ...prevState.posts,
+                post: {
+                    ...prevState.post,
                     [e.target.name]: e.target.value
                 }
             }
@@ -31,9 +31,9 @@ class EditContainer extends React.Component{
 
     handleSubmit(e){
         e.preventDefault();
-        this.props.editPost(this.props.postId, this.state.posts)
+        this.props.editPost(this.props.postId, this.state.post)
         this.setState({
-            posts: {
+            post: {
                 title: "",
                 description: ""
             }
@@ -45,7 +45,7 @@ class EditContainer extends React.Component{
             <EditPost
                 handleSubmit={this.handleSubmit}
                 handleChange={this.handleChange}
-                posts={this.state.posts}
+                post={this.state.post}
             />
         )
     }

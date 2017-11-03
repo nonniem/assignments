@@ -38,7 +38,7 @@ class ProjectContainer extends React.Component{
             return this.state.projects.map((project)=>{
                 return <Link
                             key={project._id}
-                            to={`/projects/${project._id}`}>{project.title},</Link>
+                            to={`/projects/${project._id}`}> {project.title} <br/></Link>
             })
         }
 

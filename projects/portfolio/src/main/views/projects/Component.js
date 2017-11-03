@@ -4,12 +4,16 @@ import ProjectLayout from "./views/index";
 
 function Projects(props){
     let searchById = props.searchById;
+    const style={
+        paddingTop: "10px",
+        paddingLeft: "20px"
+    }
     return(
-        <div className="detailContainer">
-            <div>
+        <div className="bodyLayout">
+            <div  style={style}>
                 {props.genLinks()}
             </div>
-            <div >
+            <div>
                 <Switch>
                     <Route path="/projects/:id" render={(props)=>{
                             return(

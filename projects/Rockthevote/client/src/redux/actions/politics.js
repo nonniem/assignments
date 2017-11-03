@@ -37,3 +37,18 @@ export function deletePost(id){
             console.log(err)
         })
     }}
+
+export function editPost(id){
+    return(dispatch)=>{
+        axios.put(politicsUrl + id, editPost).then(response=>{
+            dispatch({
+                type: "EDIT_POST",
+                editPost: response.data,
+                id
+            })
+        })
+        .catch((err)=>{
+            console.log(err)
+        })
+    }
+}

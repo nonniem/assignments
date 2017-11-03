@@ -1,7 +1,8 @@
-import {addPost, deletePost, loadPost} from "./politics";
+import {addPost, deletePost, loadPost, editPost} from "./politics";
 
 export const politics = {
     addPost,
     deletePost,
-    loadPost
+    loadPost,
+    editPost
 }

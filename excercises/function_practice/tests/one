@@ -1,0 +1,3 @@
+function tellFortune(children, parent, location, title){
+
+}

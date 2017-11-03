@@ -7,7 +7,7 @@ class FormContainer extends React.Component{
     constructor(){
         super();
         this.state = {
-            posts: {
+            post: {
                 title: "",
                 description: ""
             }
@@ -21,8 +21,8 @@ class FormContainer extends React.Component{
         e.persist();
         this.setState((prevState) => {
             return {
-                posts: {
-                    ...prevState.posts,
+                post: {
+                    ...prevState.post,
                     [e.target.name]: e.target.value
                 }
             }
@@ -31,9 +31,9 @@ class FormContainer extends React.Component{
 
     handleSubmit(e){
         e.preventDefault();
-        this.props.addPost(this.state.posts);
+        this.props.addPost(this.state.post);
         this.setState({
-            posts: {
+            post: {
                 title: "",
                 description: ""
             }
@@ -45,7 +45,7 @@ class FormContainer extends React.Component{
             <FormComponent
                     handleSubmit={this.handleSubmit}
                     handleChange={this.handleChange}
-                    posts={this.state.posts}/>
+                    post={this.state.post}/>
         )
     }
 }

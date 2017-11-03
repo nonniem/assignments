@@ -15,6 +15,15 @@ export function politics(prevPost = defaultPolitics, action){
             case "LOAD_POST":
                 return action.politics;
 
+            case "EDIT_POST":
+                return newPosts.map((post)=>{
+                    if(action.id === post._id){
+                        return action.editPost;
+                    } else {
+                        return post;
+                    }
+                })
+
                 default:
                     return prevPost;
         }
