@@ -4,22 +4,24 @@
 
 .contained{
     width: 100%;
-    height: 500px;
+    height: 89vh;
 }
 
 .backgrownd{
-    height: 100%;
-    width: 100%;
+    height: cover;
+    width: ;
     background-size: cover;
     background-position: center;
+    min-width: 200px;
     background-image: url("http://labs4.kentooz.com/wpwallpaper/wp-content/uploads/2013/04/Village-Wallpaper-198.jpg");
 }
 .nav {
     margin:auto;
     display: flex;
     justify-content: space-between;
-    height: 50px;
-    background: black;
+    height: 150px;
+    background: rgba(150, 170, 179, .5);
+    padding: 15px;
 }
 
 .footer{
@@ -50,5 +52,5 @@
     background-color: beige;
     position: relative;
     display: inline-block;
-    border: black 1px solid;
+    border: rgba(150, 170, 179, 1.0) 1px solid;
 }
