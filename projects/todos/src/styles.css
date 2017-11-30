@@ -9,8 +9,10 @@
 .styled{
   background: beige;
   margin:10px;
+  margin-left: 50px;
 }
 
 .style{
   background: limegreen;
+  margin-top: 5%;
 }

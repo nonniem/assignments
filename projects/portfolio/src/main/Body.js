@@ -1,16 +1,15 @@
 import React from "react";
 import {Switch, Route} from "react-router-dom";
-import About from "./views/About";
+
 import Contact from "./views/Contact";
-import ProjectComponent from "./views/projects/Component.js";
+import Projects from "./views/Projects";
 
 function Body(props){
     return(
-        <div className="contained">
+        <div>
             <Switch>
-                <Route path="/projects" component={ProjectComponent}/>
-                <Route path="/contact" component={Contact}/>
-                <Route path="/about" component={About}/>
+                <Route path="/projects" component={Projects}/>
+                <Route path="/" component={Contact}/>
             </Switch>
         </div>
     )

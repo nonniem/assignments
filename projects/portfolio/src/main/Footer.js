@@ -3,7 +3,7 @@ import React from "react";
 function Footer(props){
     const footer = {
         color: "white",
-        height: "5%",
+        height: "8vh",
         background: "url('https://media.giphy.com/media/aRZ4vTsHnyW6A/giphy.gif')",
         position: "relative",
         zIndex: "1"

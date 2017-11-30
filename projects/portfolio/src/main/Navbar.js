@@ -4,7 +4,7 @@ import {Link} from "react-router-dom";
 function Navbar(props){
 const style = {
     color: "white",
-    
+
 }
 
     return(
@@ -12,8 +12,8 @@ const style = {
             <div className="backgrownd">
                 <div className="nav">
                     <Link to="/projects" style={style}>Project Portfolio</Link>
-                    <Link to="/contact" style={style}>Contact</Link>
-                    <Link to="/about" style={style}>About Me</Link>
+                    <Link to="/" style={style}>Bio</Link>
+
                 </div>
             </div>
         </div>

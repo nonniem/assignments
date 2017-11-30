@@ -1,31 +1,19 @@
-.backgrownd{
-    border: black 2px solid
+* {
+    font-family: 'Open Sans', sans-serif;
 }
 
-.contained{
-    width: 100%;
-    height: 89vh;
-}
 
-.backgrownd{
-    height: cover;
-    width: ;
-    background-size: cover;
-    background-position: center;
-    min-width: 200px;
-    background-image: url("http://labs4.kentooz.com/wpwallpaper/wp-content/uploads/2013/04/Village-Wallpaper-198.jpg");
-}
 .nav {
     margin:auto;
     display: flex;
     justify-content: space-between;
-    height: 150px;
     background: rgba(150, 170, 179, .5);
+    margin-top: 13px;
     padding: 15px;
 }
 
 .footer{
-    height: 40px;
+    height: 8vh;
     background: black;
     position: fixed;
     right: 0;
@@ -46,11 +34,24 @@
     border: black 1px solid
 }
 
-.bodyLayout{
-    width: 100%;
-    height: 100vh;
-    background-color: beige;
+.contactInfo{
     position: relative;
     display: inline-block;
-    border: rgba(150, 170, 179, 1.0) 1px solid;
+    height: 70vh;
+    width: 100%
+}
+
+.appBox {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: cover;
+    background-size: cover;
+    background-position: center;
+    min-width: 200px;
+    background-image: url("./outside.jpg");
+}
+
+.fa{
+    color: white;
 }

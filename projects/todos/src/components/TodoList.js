@@ -110,7 +110,7 @@ class TodoList extends React.Component {
                 <Row>
                 {this.state.todos.map((item, i) => {
                     return (
-                        <Col xs={4} md={3} key={item.title + i} className="styled">
+                        <Col  xs={5} key={item.title + i} className="styled">
                             <TodoItemContainer
                                 todo={item}
                                 deleteTodo={this.deleteTodo}
