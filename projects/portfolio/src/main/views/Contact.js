@@ -1,59 +1,83 @@
 import React from "react";
 
 function Contact(props){
-    const style={
+    const titleStyle = {
         padding: "10px",
         paddingTop: "10px",
         paddingLeft: "40px",
         paddingRight: "40px",
         fontSize: "15px",
         textAlign: "center",
-        background: "rgba(150, 170, 179, .5)",
-        color: "white"
+        letterSpacing: "1.3px",
+        wordSpacing: "1px",
+        background: "rgba(150, 170, 179, .9)",
+        color: "snow",
+        width: "40%",
+        margin: "auto",
+        marginTop: "10px",
+        marginBottom: "10px",
+        borderRadius: "15%",
+        borderTop: "snow 1px solid",
+        borderBottom: "snow 1px solid",
+        maxWidth: ""
     }
 
     const contactMethods = {
-        height: "45px",
-        width: "245px",
-        background: "rgba(150, 170, 179, .5)",
-        color: "white",
+        height: "50px",
+        width: "275px",
+        background: "rgba(150, 170, 179, .9)",
+        color: "snow",
         position: "relative",
         margin: "auto",
-        borderLeft: "solid white 1px"
-
+        borderLeft: "solid white 1px",
+        letterSpacing: "1.3px",
+        wordSpacing: "1px",
+        padding: "5px"
     }
 
-    const personalBio={
+    const personalBio = {
         padding: "10px",
         paddingTop: "10px",
         paddingLeft: "40px",
         paddingRight: "40px",
         fontSize: "15px",
         textAlign: "center",
-        background: "rgba(150, 170, 179, .5)",
-        color: "white",
+        background: "rgba(150, 170, 179, .9)",
+        color: "snow",
         width: "80%",
         margin: "auto",
         borderRight: "solid white 1px",
         borderLeft: "solid white 1px",
+        letterSpacing: "1.3px",
+        wordSpacing: "1px",
+        maxWidth: "666px",
+        borderRadius: "2%",
+    }
+
+    const indentd = {
+        paddingLeft: "15px"
     }
 
     return(
 
     <div>
         <div>
-            <h2 style={style}>Personal Bio</h2>
-            <h5 style={personalBio}>My name is Nonnie Martin. I grew up in Appleton,
-            and moved to Utah four years ago. I love to snowboard and be outside,
-            but i spend my days inside learning to code. I have experience with React,
-            JS, Node, Mongodb, and CS3. I enjoy designing websites and laying out there
-            user interface and how they will be interacting with the site. I have a passion
-            to do things differently and want to make something my own. Currently diving into
-            the coding world hearfirst... no lifevest</h5>
+            <h2 style={titleStyle}>Personal Bio</h2>
+            <div style={personalBio}>
+                <span style={indentd}>Hello, welcome to my portfolio. My name is Nonnie. I grew up in Appleton, Wisconsin
+                and moved to Utah four years ago. <br/>I love to snowboard and be outside,
+                but i spend most of my time inside writing code. I have experience with React,
+                JS6, NodeJs, MongoDb, and CS3. I enjoy designing websites and planning
+                a users experience while visiting my website. I have a passion
+                to do things differently and want to make something my own.
+                Currently diving into
+                the coding world headfirst... no lifevest. Thank you for visiting.</span>
+            </div>
+
         </div>
 
         <div className="contactInfo">
-                <h3 style={style}>Contact info.</h3>
+                <h3 style={titleStyle}>Contact information</h3>
             <div style={contactMethods}>
                 <li>Email: martin.nonnie@gmail.com</li>
                 <li>Phone #: 920-740-3262</li>

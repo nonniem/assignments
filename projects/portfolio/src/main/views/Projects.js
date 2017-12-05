@@ -1,59 +1,69 @@
 import React from "react";
+import Meme from "./images/meme.png";
+import Flowarts from "./images/flowarts.png";
+import Mario from "./images/mario.png";
+import TodoList from "./images/todolist.png";
+import Stopwatch from "./images/stopwatch.png";
+import Chatter from "./images/chatter.png";
+
 
 function Projects(){
-    const style = {
-        padding: "10px",
-        alignContent: "center",
-        margin: "auto",
-        letterSpacing: ".01em",
-        borderLeft: "solid black 1px",
-        borderRight: "solid black 1px",
-        marginLeft: "20px",
-        marginRight: "20px",
-        background: "rgba(150, 170, 179, .5)",
-        color: "white",
-    }
-
     const styles = {
         height: "100vh",
         marginBottom: "20px",
         borderTop: "solid black 1px ",
         size: "2em",
+        overflowY: "auto"
+    }
 
+    const imageContainer = {
+        maxWidth: "80%",
+        maxHeight: "500px",
+
+        float: "right",
+        border: "1px black solid"
+    }
+
+    const hrefLink = {
+        fontSize: "1.5em",
+        color: "snow",
+        letterSpacing: "1px",
+        textShadow: "-1px 0 black, 0 1px black, 0 0 black, 0 0 black",
     }
 
     return(
 
         <div style={styles}>
 
-            <div style={style}>
-                <a href="http://nonniemarion.surge.sh">Mario Pest Control</a>
-                <img src='' alt=""/>
+            <div className="style">
+                <a style={hrefLink} href="https://chatterin.herokuapp.com">Chatter</a>
+                <img style={imageContainer} src={Chatter} alt=""/>
             </div>
 
-            <div style={style}>
-                <a href="http://nonniestodolist.surge.sh">Todo List</a>
-                <img src='' alt=""/>
+
+            <div className="style">
+                <a style={hrefLink} href="https://flowarts.herokuapp.com/">Flowarts</a>
+                <img style={imageContainer} src={Flowarts} alt="flowarts"/>
             </div>
 
-            <div style={style}>
-                <a href="http://nonniestopwatch.surge.sh">Stopwatch from scratch</a>
-                <img src='' alt=""/>
+            <div className="style">
+                <a style={hrefLink} href="http://nonniestodolist.surge.sh">Todo List</a>
+                <img style={imageContainer} src={TodoList} alt=""/>
             </div>
 
-            <div style={style}>
-                <a href="http://nonniesmemese.surge.sh">Make some Memes</a>
-                <img src='' alt=""/>
+            <div className="style">
+                <a style={hrefLink} href="http://nonniesmemese.surge.sh">Memes</a>
+                <img style={imageContainer} src={Meme} alt=""/>
             </div>
 
-            <div style={style}>
-                <a href="http://flowartss.surge.sh">Flowarts</a>
-                <img src='' alt=""/>
+            <div className="style">
+                <a style={hrefLink} href="http://nonniestopwatch.surge.sh">Stopwatch</a>
+                <img style={imageContainer} src={Stopwatch} alt=""/>
             </div>
 
-            <div style={style}>
-                <a href="">Chatter</a>
-                <img src='' alt=""/>
+            <div className="style">
+                <a style={hrefLink} href="http://nonniemarion.surge.sh">Mario Calculator</a>
+                <img style={imageContainer} src={Mario} alt="Meme Making website"/>
             </div>
 
         </div>
