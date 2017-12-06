@@ -13,13 +13,14 @@ function Projects(){
         marginBottom: "20px",
         borderTop: "solid black 1px ",
         size: "2em",
-        overflowY: "auto"
+        overflowY: "auto",
+        display: "block",
+        margin: "auto"
     }
 
     const imageContainer = {
         maxWidth: "80%",
         maxHeight: "500px",
-
         float: "right",
         border: "1px black solid"
     }

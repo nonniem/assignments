@@ -1,5 +1,5 @@
 * {
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Cabin', Helvetica, Arial, sans-serif;
 }
 
 
@@ -14,6 +14,31 @@
     background: -o-linear-gradient(25deg, rgba(0,128,0,.1) 1%, rgba(0,128,0,.3) 5%, rgba(5,184,189,.7) 28%, rgba(116,166,236,.7) 92%, rgba(116,166,236,.1) 100%);
     background: -ms-linear-gradient(25deg, rgba(0,128,0,.1) 1%, rgba(0,128,0,.3) 5%, rgba(5,184,189,.7) 28%, rgba(116,166,236,.7) 92%, rgba(116,166,236,.1) 100%);
     background: linear-gradient(65deg, rgba(0,128,0,.1) 1%, rgba(0,128,0,.3) 5%, rgba(5,184,189,.7) 28%, rgba(116,166,236,.7) 92%, rgba(116,166,236,.1) 100%);
+    text-shadow:
+    .5px .5px 0 #456,
+    -.5px .5px 0 #456,
+    .5px -.5px 0 #456,
+    -.5px -.5px 0 #456,
+    0px .5px 0 #456,
+    0px -.5px 0 #456,
+    -.5px 0px 0 #456,
+    .5px 0px 0 #456,
+    1px 1px 0 #456,
+    -1px 1px 0 #456,
+    1px -1px 0 #448,
+    -1px -1px 0 #448,
+    0px 1px 0 #448,
+    0px -1.5px 0 #448,
+    -1.5px 0px 0 #448,
+    1.5px 0px 0 #448,
+    .5px 1.5px 0 #448,
+    -.5px 1.5px 0 #448,
+    .5px -1.5px 0 #448,
+    -.5px -1.5px 0 #448,
+    1.5px .5px 0 #448,
+    -1.5px .5px 0 #448,
+    1.5px -.5px 0 #448,
+    -1.5px -.5px 0 #448;
 }
 
 .footer{
@@ -54,6 +79,7 @@
     background-position: center;
     min-width: 200px;
     background-image: url("./4Kyosemite.jpg");
+    min-height: 100vh;
 }
 
 .fa{
@@ -64,31 +90,31 @@
         padding: 10px;
         align-content: center;
         letter-spacing: .01em;
-        justify-content: space-between;
         display: inline-block;
         margin: 10px 15px auto;
-        margin-left: 1%;
-        margin-right: 1%;
+        width: 80%;
+        margin-left: 20%;
+
         border: black 1px solid;
-        background: rgba(150, 170, 179, .5);
+        background: rgba(0, 0, 0, 0.5);
         color: white;
         top: 10%;
         min-width: 240px;
-        max-width: 100%;
-        width: -webkit-fill-available;
+        border-radius: 5px;
+
     }
 
 .navbarLink{
-    color: grey;
+    color: white;
     font-size: 1.5em;
-    font-family: 'Rubik', sans-serif;
+    font-family: 'Lobster', Georgia, Times, serif;
 }
 
 @media screen and (min-width: 500px){
     .style {
         margin-right: 10%;
-        margin-left: 10%;
-        max-width: 100%
+        margin-left: 15%;
+        max-width: 70%
 
     }
 }
