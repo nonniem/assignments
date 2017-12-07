@@ -6,26 +6,26 @@ function Contact(props){
         paddingTop: "10px",
         paddingLeft: "40px",
         paddingRight: "40px",
-        fontSize: "15px",
+        fontSize: "1.2em",
         textAlign: "center",
         letterSpacing: "1.3px",
         wordSpacing: "1px",
-        background: "rgba(150, 170, 179, .9)",
+        background: "linear-gradient(65deg, rgba(0,128,0,.1) 1%, rgba(0,128,0,.3) 5%, rgba(5,184,189,.7) 28%, rgba(116,166,236,.7) 92%, rgba(116,166,236,.1) 100%)",
         color: "snow",
-        width: "40%",
+        width: "80%",
         margin: "auto",
         marginTop: "10px",
         marginBottom: "10px",
         borderRadius: "15%",
         borderTop: "snow 1px solid",
         borderBottom: "snow 1px solid",
-        maxWidth: ""
+        maxWidth: "600px"
     }
 
     const contactMethods = {
         height: "50px",
         width: "275px",
-        background: "rgba(150, 170, 179, .9)",
+        background: "linear-gradient(65deg, rgba(0,128,0,.1) 1%, rgba(0,128,0,.3) 5%, rgba(5,184,189,.7) 28%, rgba(116,166,236,.7) 92%, rgba(116,166,236,.1) 100%)",
         color: "snow",
         position: "relative",
         margin: "auto",
@@ -40,11 +40,11 @@ function Contact(props){
         paddingTop: "10px",
         paddingLeft: "40px",
         paddingRight: "40px",
-        fontSize: "15px",
+        fontSize: "1.3em",
         textAlign: "center",
-        background: "rgba(150, 170, 179, .9)",
+        background: "linear-gradient(65deg, rgba(0,128,0,.1) 1%, rgba(0,128,0,.3) 5%, rgba(5,184,189,.7) 28%, rgba(116,166,236,.7) 92%, rgba(116,166,236,.1) 100%)",
         color: "snow",
-        width: "80%",
+        width: "90%",
         margin: "auto",
         borderRight: "solid white 1px",
         borderLeft: "solid white 1px",
@@ -62,7 +62,7 @@ function Contact(props){
 
     <div>
         <div>
-            <h2 style={titleStyle}>Personal Bio</h2>
+            <h2 style={titleStyle}>Basically my life story</h2>
             <div style={personalBio}>
                 <span style={indentd}>Hello, welcome to my portfolio. My name is Nonnie. I grew up in Appleton, Wisconsin
                 and moved to Utah four years ago. <br/>I love to snowboard and be outside,
